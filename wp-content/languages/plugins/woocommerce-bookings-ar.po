@@ -1,0 +1,3652 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-16 09:54:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ar\n"
+"Project-Id-Version: WooCommerce - Extensions - WooCommerce Bookings\n"
+
+#: templates/emails/plain/admin-new-booking.php:52
+#: templates/emails/plain/customer-booking-pending-confirmation.php:34
+msgid "Booked: "
+msgstr "محجوز:  "
+
+#. translators: 1: minimum duration 2: duration unit
+#: includes/data-objects/class-wc-product-booking.php:2316
+msgid "The minimum duration is %1$d %2$s"
+msgstr "يبلغ الحد الأدنى للمدة ⁦%1$d⁩ %2$s"
+
+#. translators: 1: maximum duration 2: duration unit
+#: includes/data-objects/class-wc-product-booking.php:2301
+msgid "The maximum duration is %1$d %2$s"
+msgstr "يبلغ الحد الأقصى للمدة ⁦%1$d⁩ %2$s"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:907
+msgid "Check this to delete an event from Google Calendar when the corresponding store availability is deleted."
+msgstr "حدِّد هذا الخيار لحذف حدث من تقويم غوغل عند حذف توافر المخزن المقابل."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:905
+msgid "Delete Events from Google Calendar"
+msgstr "حذف الأحداث من تقويم غوغل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:903
+msgid "Deletion Preference"
+msgstr "تفضيل الحذف"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:570
+msgid "Date should be of the format yyyy-mm-dd and cannot be empty."
+msgstr "ينبغي أن يظهر التاريخ بالتنسيق yyyy-mm-dd، ويتعذر أن يكون فارغًا."
+
+#: includes/admin/class-wc-bookings-admin.php:672
+#: includes/admin/class-wc-bookings-details-meta-box.php:555
+msgid "Start date cannot be greater than end date."
+msgstr "يتعذر أن يكون تاريخ البدء أكبر من تاريخ الانتهاء."
+
+#: includes/admin/class-wc-bookings-admin.php:671
+msgid "\"Start and end date\" should be of the format yyyy-mm-dd and cannot be empty."
+msgstr "ينبغي أن يظهر \"تاريخ البدء والانتهاء\" بالتنسيق yyyy-mm-dd، ويتعذر أن يكون فارغًا."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1321
+msgid "Invalid request!"
+msgstr "طلب غير صالح!"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1098
+msgid "To sync with Google Calendar using an app provided by WooCommerce.com, click the \"Connect with Google\" button below to authorize access to your Google calendar."
+msgstr "للمزامنة مع تقويم غوغل باستخدام تطبيق يوفِّره WooCommerce.com، انقر على زر \"الاتصال بغوغل\" أدناه للسماح بالوصول إلى تقويم غوغل لديك."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:987
+msgid "Connect with custom Google app"
+msgstr "الاتصال بتطبيق غوغل المخصص"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:985
+msgid "Please fill out all required fields from above and save changes."
+msgstr "يرجى ملء جميع الحقول المطلوبة من الأعلى وحفظ التغييرات."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:884
+msgid "Select your Calendar."
+msgstr "حدِّد تقويمك."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:877
+msgid "Connected Calendar Settings"
+msgstr "إعدادات التقويم المتصلة"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:867
+msgid "Enter the Google Client Secret associated with your Calendar API app."
+msgstr "أدخل البيانات السرية لعميل غوغل المقترن بتطبيق واجهة برمجة التطبيقات في تقويمك."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:865
+msgid "Client Secret"
+msgstr "البيانات السرية للعميل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:859
+msgid "Enter the Google Client ID associated with your Calendar API app."
+msgstr "أدخل معرِّف عميل غوغل المقترن بتطبيق واجهة برمجة التطبيقات في تقويمك."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:857
+msgid "Client ID"
+msgstr "معرِّف العميل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:852
+msgid "Connect with a custom Google Calendar App"
+msgstr "الاتصال بتطبيق تقويم غوغل المخصص"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:220
+msgid "Metadata:"
+msgstr "بيانات التعريف:"
+
+#. translators: 1: href link to list of bookings, 2: booking post type link
+#: woocommerce-bookings.php:371
+msgid "<a href=\"%1$s\">Add or edit a product</a> to manage bookings in the Product Data section for individual products and then go to the <a href=\"%2$s\" target=\"_blank\">Bookings page</a> to manage them individually."
+msgstr "<a href=\"%1$s\">أضف منتجًا أو حرره</a> لإدارة الحجوزات في قسم بيانات المنتج للمنتجات الفردية، ثم انتقل إلى <a href=\"%2$s\" target=\"_blank\">صفحة الحجوزات</a> لإدارتها على حدة."
+
+#: woocommerce-bookings.php:369
+msgid "Bookings has been activated!"
+msgstr "تم تفعيل الحجوزات!"
+
+#: woocommerce-bookings.php:266
+msgid "Unserializing instances of this class is forbidden."
+msgstr "يحظر إلغاء تسلسل مثيلات هذه الفئة."
+
+#: woocommerce-bookings.php:257
+msgid "Cloning is forbidden."
+msgstr "الاستنساخ محظور."
+
+#: woocommerce-bookings.php:226
+msgid "Premium Support"
+msgstr "دعم متميز"
+
+#: woocommerce-bookings.php:226
+msgid "Visit Premium Customer Support"
+msgstr "زيارة دعم العميل المتميز"
+
+#: woocommerce-bookings.php:225
+msgid "Docs"
+msgstr "التعليمات"
+
+#: woocommerce-bookings.php:225
+msgid "View Documentation"
+msgstr "عرض الوثائق"
+
+#. translators: %s WC download URL link.
+#: woocommerce-bookings.php:38
+msgid "Bookings requires WooCommerce to be installed and active. You can download %s here."
+msgstr "تتطلب الحجوزات تثبيت WooCommerce وأن تكون نشطة. يمكنك تنزيل %s هنا."
+
+#: templates/single-product/add-to-cart/booking.php:33
+msgid "Your browser must support JavaScript in order to make a booking."
+msgstr "يجب أن يدعم متصفحك JavaScript من أجل إجراء أحد الحجوزات."
+
+#. translators: 1: person count
+#: templates/emails/plain/booking-summary-list.php:50
+#: templates/order/booking-summary-list.php:84
+msgid "%d Persons"
+msgstr "%d الأشخاص"
+
+#. translators: 1: label 2: resource name
+#: templates/emails/plain/booking-summary-list.php:30
+#: templates/order/booking-summary-list.php:56
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: %s: timezone name
+#: templates/order/booking-summary-list.php:47
+msgid "in timezone: %s"
+msgstr "في المنطقة الزمنية: %s"
+
+#: templates/order/booking-display.php:76
+msgid "View my bookings &rarr;"
+msgstr "عرض حجوزاتي &rarr;"
+
+#: templates/order/admin/booking-display.php:78
+msgid "View booking &rarr;"
+msgstr "عرض الحجز &rarr;"
+
+#. translators: 1: booking id
+#: templates/order/admin/booking-display.php:60
+#: templates/order/booking-display.php:62
+msgid "Booking #%s"
+msgstr "الحجز رقم%s"
+
+#: templates/myaccount/my-bookings.php:25
+msgid "My Bookings"
+msgstr "حجوزاتي"
+
+#: templates/myaccount/bookings.php:108
+msgid "No bookings available yet."
+msgstr "لا تتوافر حجوزات حتى الآن."
+
+#: templates/myaccount/bookings.php:106
+msgid "Go Shop"
+msgstr "الانتقال إلى المتجر"
+
+#: templates/myaccount/bookings.php:79 templates/myaccount/my-bookings.php:62
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: templates/myaccount/bookings.php:40 templates/myaccount/my-bookings.php:31
+msgid "Booked"
+msgstr "محجوز"
+
+#. translators: 1: booking start date
+#: templates/emails/plain/customer-booking-reminder.php:31
+msgid "This is a reminder that your booking will take place on %1$s. The details of your booking are shown below."
+msgstr "هذا تذكير بأنَّ حجزك سيتم بتاريخ ⁦%1$s⁩. تظهر تفاصيل حجزك أدناه."
+
+#: templates/emails/plain/customer-booking-notification.php:27
+msgid "The details of your booking are shown below."
+msgstr "تظهر تفاصيل حجزك أدناه."
+
+#. translators: 1: order date
+#: templates/emails/plain/customer-booking-confirmed.php:90
+msgid "Order date: %s"
+msgstr "تاريخ الطلب: %s"
+
+#. translators: 1: order number
+#: templates/emails/plain/customer-booking-confirmed.php:88
+msgid "Order number: %s"
+msgstr "رقم الطلب: %s"
+
+#. translators: 1: time zone
+#: templates/emails/plain/admin-booking-cancelled.php:51
+#: templates/emails/plain/admin-new-booking.php:73
+#: templates/emails/plain/customer-booking-cancelled.php:56
+#: templates/emails/plain/customer-booking-confirmed.php:53
+#: templates/emails/plain/customer-booking-notification.php:50
+#: templates/emails/plain/customer-booking-pending-confirmation.php:55
+#: templates/emails/plain/customer-booking-reminder.php:54
+msgid "Time Zone: %s"
+msgstr "المنطقة الزمنية: %s"
+
+#. translators: 1: booking end date
+#: templates/emails/plain/admin-booking-cancelled.php:47
+#: templates/emails/plain/admin-new-booking.php:69
+#: templates/emails/plain/customer-booking-cancelled.php:52
+#: templates/emails/plain/customer-booking-confirmed.php:49
+#: templates/emails/plain/customer-booking-notification.php:46
+#: templates/emails/plain/customer-booking-pending-confirmation.php:51
+#: templates/emails/plain/customer-booking-reminder.php:50
+msgid "Booking End Date: %s"
+msgstr "تاريخ انتهاء الحجز: %s"
+
+#. translators: 1: booking start date
+#: templates/emails/plain/admin-booking-cancelled.php:45
+#: templates/emails/plain/admin-new-booking.php:67
+#: templates/emails/plain/customer-booking-cancelled.php:50
+#: templates/emails/plain/customer-booking-confirmed.php:47
+#: templates/emails/plain/customer-booking-notification.php:44
+#: templates/emails/plain/customer-booking-pending-confirmation.php:49
+#: templates/emails/plain/customer-booking-reminder.php:48
+msgid "Booking Start Date: %s"
+msgstr "تاريخ بدء الحجز: %s"
+
+#. translators: 1: booking title
+#: templates/emails/plain/admin-booking-cancelled.php:41
+#: templates/emails/plain/admin-new-booking.php:63
+#: templates/emails/plain/customer-booking-cancelled.php:46
+#: templates/emails/plain/customer-booking-confirmed.php:43
+#: templates/emails/plain/customer-booking-notification.php:40
+#: templates/emails/plain/customer-booking-pending-confirmation.php:45
+#: templates/emails/plain/customer-booking-reminder.php:44
+msgid "Booking Type: %s"
+msgstr "نوع الحجز: %s"
+
+#. translators: 1: booking id
+#: templates/emails/plain/admin-booking-cancelled.php:35
+#: templates/emails/plain/admin-new-booking.php:57
+#: templates/emails/plain/customer-booking-cancelled.php:40
+#: templates/emails/plain/customer-booking-confirmed.php:37
+#: templates/emails/plain/customer-booking-notification.php:34
+#: templates/emails/plain/customer-booking-pending-confirmation.php:39
+#: templates/emails/plain/customer-booking-reminder.php:38
+msgid "Booking ID: %s"
+msgstr "معرِّف الحجز: %s"
+
+#. translators: 1: booking product title
+#: templates/emails/plain/admin-booking-cancelled.php:30
+#: templates/emails/plain/customer-booking-cancelled.php:35
+#: templates/emails/plain/customer-booking-confirmed.php:35
+#: templates/emails/plain/customer-booking-notification.php:32
+#: templates/emails/plain/customer-booking-reminder.php:36
+msgid "Booked: %s"
+msgstr "محجوز: %s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:25
+msgid "The following booking has been cancelled by the customer. The details of the cancelled booking can be found below."
+msgstr "ألغى العميل الحجز الآتي: يمكن العثور على تفاصيل الحجز الذي تم إلغاؤه أدناه."
+
+#. translators: 1: booking start date
+#: templates/emails/customer-booking-reminder.php:38
+msgid "This is a reminder that your booking will take place on %1$s."
+msgstr "هذا تذكير بأنَّ حجزك سيتم بتاريخ ⁦%1$s⁩."
+
+#: templates/emails/customer-booking-pending-confirmation.php:35
+#: templates/emails/plain/customer-booking-pending-confirmation.php:30
+msgid "Your booking has been received and it's pending confirmation. The details of your booking are shown below."
+msgstr "تم تسلُّم حجزك وفي انتظار التأكيد. تظهر تفاصيل حجزك أدناه."
+
+#: templates/emails/customer-booking-confirmed.php:129
+msgid "Price"
+msgstr "السعر"
+
+#: templates/emails/customer-booking-confirmed.php:128
+msgid "Quantity"
+msgstr "الكمية"
+
+#. translators: 1: checkout payment url
+#: templates/emails/customer-booking-confirmed.php:99
+msgid "Pay for booking"
+msgstr "الدفع للحجز"
+
+#. translators: 1: checkout payment url
+#: templates/emails/customer-booking-confirmed.php:99
+#: templates/emails/plain/customer-booking-confirmed.php:74
+msgid "To pay for this booking please use the following link: %s"
+msgstr "للدفع مقابل هذا الحجز، يرجى استخدام الرابط الآتي: %s"
+
+#: templates/emails/customer-booking-confirmed.php:35
+#: templates/emails/plain/customer-booking-confirmed.php:30
+msgid "Your booking has been confirmed. The details of your booking are shown below."
+msgstr "تم تأكيد حجزك. تظهر تفاصيل حجزك أدناه."
+
+#: templates/emails/customer-booking-cancelled.php:90
+#: templates/emails/plain/customer-booking-cancelled.php:73
+msgid "Please contact us if you have any questions or concerns."
+msgstr "يرجى الاتصال بنا إذا كانت لديك أي أسئلة أو مخاوف."
+
+#: templates/emails/customer-booking-cancelled.php:35
+#: templates/emails/plain/customer-booking-cancelled.php:30
+msgid "We are sorry to say that your booking could not be confirmed and has been cancelled. The details of the cancelled booking can be found below."
+msgstr "نأسف لقول إنَّ حجزك قد لا يتم تأكيده وتم إلغاؤه. يمكن العثور على تفاصيل الحجز الذي تم إلغاؤه أدناه."
+
+#. translators: 1: billing first name
+#: templates/emails/customer-booking-cancelled.php:30
+#: templates/emails/customer-booking-confirmed.php:30
+#: templates/emails/customer-booking-pending-confirmation.php:30
+#: templates/emails/customer-booking-reminder.php:30
+#: templates/emails/plain/customer-booking-cancelled.php:27
+#: templates/emails/plain/customer-booking-confirmed.php:27
+#: templates/emails/plain/customer-booking-pending-confirmation.php:27
+#: templates/emails/plain/customer-booking-reminder.php:27
+msgid "Hello %s"
+msgstr "مرحبًا %s"
+
+#: templates/emails/admin-new-booking.php:107
+#: templates/emails/plain/admin-new-booking.php:91
+msgid "This booking is awaiting your approval. Please check it and inform the customer if the date is available or not."
+msgstr "هذا الحجز في انتظار موافقتك. يرجى التحقُّق منه وإخبار العميل بذلك إذا كان العميل متوافرًا أم لا."
+
+#. translators: 1: billing first and last name
+#: templates/emails/admin-new-booking.php:28
+#: templates/emails/plain/admin-new-booking.php:30
+msgid "A new booking has been made by %s. The details of this booking are as follows:"
+msgstr "أجرى %s حجزًا جديدًا. ترد تفاصيل هذا الحجز على النحو الآتي:"
+
+#. translators: 1: billing first and last name
+#: templates/emails/admin-new-booking.php:25
+#: templates/emails/plain/admin-new-booking.php:27
+msgid "A booking has been made by %s and is awaiting your approval. The details of this booking are as follows:"
+msgstr "أجرى %s حجزًا، وفي انتظار موافقتك. ترد تفاصيل هذا الحجز على النحو الآتي:"
+
+#. translators: 1: a href to booking
+#: templates/emails/admin-booking-cancelled.php:86
+#: templates/emails/admin-new-booking.php:113
+#: templates/emails/plain/admin-booking-cancelled.php:69
+msgid "You can view and edit this booking in the dashboard here: %s"
+msgstr "يمكنك عرض هذا الحجز وتحريره في لوحة التحكم هنا: %s"
+
+#: templates/emails/admin-booking-cancelled.php:56
+#: templates/emails/admin-new-booking.php:79
+#: templates/emails/customer-booking-cancelled.php:63
+#: templates/emails/customer-booking-confirmed.php:63
+#: templates/emails/customer-booking-notification.php:54
+#: templates/emails/customer-booking-pending-confirmation.php:63
+#: templates/emails/customer-booking-reminder.php:68
+msgid "Booking End Date"
+msgstr "تاريخ انتهاء الحجز"
+
+#: templates/emails/admin-booking-cancelled.php:52
+#: templates/emails/admin-new-booking.php:75
+#: templates/emails/customer-booking-cancelled.php:59
+#: templates/emails/customer-booking-confirmed.php:59
+#: templates/emails/customer-booking-notification.php:50
+#: templates/emails/customer-booking-pending-confirmation.php:59
+#: templates/emails/customer-booking-reminder.php:64
+msgid "Booking Start Date"
+msgstr "تاريخ بدء الحجز"
+
+#: templates/emails/admin-booking-cancelled.php:26
+msgid "The following booking has been cancelled. The details of the cancelled booking can be found below."
+msgstr "تم إلغاء الحجز الآتي. يمكن العثور على تفاصيل الحجز الذي تم إلغاؤه أدناه."
+
+#: templates/booking-form/datetime-picker.php:71
+#: templates/booking-form/datetime-picker.php:76
+msgid "Choose a date above to see available times."
+msgstr "اختر تاريخًا أعلاه لرؤية الأوقات المتوافرة."
+
+#: templates/booking-form/datetime-picker.php:30
+msgid "Times are in "
+msgstr "الأوقات المدرجة"
+
+#: templates/booking-form/date-picker.php:68
+msgid "End"
+msgstr "انتهاء"
+
+#: templates/booking-form/date-picker.php:62
+#: templates/booking-form/date-picker.php:87
+#: templates/booking-form/datetime-picker.php:62
+msgid "Year"
+msgstr "عام"
+
+#: templates/booking-form/date-picker.php:61
+#: templates/booking-form/date-picker.php:86
+#: templates/booking-form/datetime-picker.php:61
+msgid "YYYY"
+msgstr "YYYY"
+
+#: templates/booking-form/date-picker.php:49
+#: templates/booking-form/date-picker.php:54
+#: templates/booking-form/date-picker.php:74
+#: templates/booking-form/date-picker.php:79
+#: templates/booking-form/datetime-picker.php:48
+#: templates/booking-form/datetime-picker.php:53
+msgid "dd"
+msgstr "dd"
+
+#: templates/booking-form/date-picker.php:46
+#: templates/booking-form/date-picker.php:57
+#: templates/booking-form/date-picker.php:71
+#: templates/booking-form/date-picker.php:82
+#: templates/booking-form/datetime-picker.php:45
+#: templates/booking-form/datetime-picker.php:56
+msgid "mm"
+msgstr "ميليميتر"
+
+#: templates/booking-form/date-picker.php:38
+msgid "Start"
+msgstr "بدء"
+
+#: templates/booking-form/date-picker.php:26
+#: templates/booking-form/datetime-picker.php:26
+msgid "F j, Y"
+msgstr "j F، Y"
+
+#: includes/wc-bookings-functions.php:1160
+msgid "night"
+msgid_plural "nights"
+msgstr[0] "ليلة"
+msgstr[1] "ليالي"
+msgstr[2] "ليالي"
+msgstr[3] "ليالي"
+msgstr[4] "ليالي"
+msgstr[5] "ليالي"
+
+#: includes/booking-form/class-wc-booking-form.php:291
+#: includes/data-objects/class-wc-product-booking.php:2290
+#: includes/data-objects/class-wc-product-booking.php:2305
+#: includes/wc-bookings-functions.php:1157
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "دقيقة"
+msgstr[1] "دقائق"
+msgstr[2] "دقائق"
+msgstr[3] "دقائق"
+msgstr[4] "دقائق"
+msgstr[5] "دقائق"
+
+#: includes/booking-form/class-wc-booking-form.php:293
+#: includes/data-objects/class-wc-product-booking.php:2292
+#: includes/data-objects/class-wc-product-booking.php:2307
+#: includes/wc-bookings-functions.php:1154
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ساعة"
+msgstr[1] "ساعات"
+msgstr[2] "ساعات"
+msgstr[3] "ساعات"
+msgstr[4] "ساعات"
+msgstr[5] "ساعات"
+
+#: includes/wc-bookings-functions.php:1150
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "أسبوع"
+msgstr[1] "أسابيع"
+msgstr[2] "أسابيع"
+msgstr[3] "أسابيع"
+msgstr[4] "أسابيع"
+msgstr[5] "أسابيع"
+
+#: includes/booking-form/class-wc-booking-form.php:297
+#: includes/data-objects/class-wc-product-booking.php:2296
+#: includes/data-objects/class-wc-product-booking.php:2311
+#: includes/wc-bookings-functions.php:1143
+msgid "month"
+msgid_plural "months"
+msgstr[0] "شهر"
+msgstr[1] "شهور"
+msgstr[2] "شهور"
+msgstr[3] "شهور"
+msgstr[4] "شهور"
+msgstr[5] "شهور"
+
+#: includes/wc-bookings-functions.php:425
+msgid "Rules with lower priority numbers will override rules with a higher priority (e.g. 9 overrides 10 ). Global rules take priority over product rules which take priority over resource rules. By using priority numbers you can execute rules in different orders."
+msgstr "ستتجاوز القواعد التي تتضمن أرقامًا ذات أولوية أقل القواعد ذات الأولوية الأعلى (على سبيل المثال، الرقم 9 يتجاوز الرقم 10). القواعد العالمية لها الأولوية على قواعد المنتجات التي لها الأولوية على قواعد الموارد. يعني استخدام أرقام ذات أولوية أنه يمكنك تنفيذ القواعد في طلبات مختلفة."
+
+#: includes/wc-bookings-functions.php:416
+msgid "Rules with lower priority numbers will override rules with a higher priority (e.g. 9 overrides 10 ). Ordering is only applied within the same priority and higher order overrides lower order."
+msgstr "ستتجاوز القواعد التي تتضمن أرقامًا ذات أولوية أقل القواعد ذات الأولوية الأعلى (على سبيل المثال، الرقم 9 يتجاوز الرقم 10). لا يسري الطلب إلا ضمن الأولوية نفسها وعندما يتجاوز الطلب الأعلى الطلب الأدنى."
+
+#: includes/wc-bookings-functions.php:146
+msgid "In Cart"
+msgstr "في عربة التسوق"
+
+#: includes/wc-bookings-functions.php:96 includes/wc-bookings-functions.php:125
+#: includes/wc-bookings-functions.php:145
+msgid "Complete"
+msgstr "(مُكتمل)"
+
+#: includes/wc-bookings-functions.php:95 includes/wc-bookings-functions.php:124
+msgid "Cancelled"
+msgstr "ملغي"
+
+#: includes/wc-bookings-functions.php:94 includes/wc-bookings-functions.php:123
+#: includes/wc-bookings-functions.php:132
+#: includes/wc-bookings-functions.php:137
+#: includes/wc-bookings-functions.php:144
+msgid "Paid"
+msgstr "مدفوع"
+
+#: includes/wc-bookings-functions.php:93 includes/wc-bookings-functions.php:122
+#: includes/wc-bookings-functions.php:131
+#: includes/wc-bookings-functions.php:136
+#: includes/wc-bookings-functions.php:143
+msgid "Confirmed"
+msgstr "تم التأكيد"
+
+#: includes/wc-bookings-functions.php:92 includes/wc-bookings-functions.php:121
+#: includes/wc-bookings-functions.php:130
+#: includes/wc-bookings-functions.php:142
+msgid "Pending Confirmation"
+msgstr "في انتظار التأكيد"
+
+#: includes/wc-bookings-functions.php:91 includes/wc-bookings-functions.php:120
+#: includes/wc-bookings-functions.php:129
+#: includes/wc-bookings-functions.php:141
+msgid "Unpaid"
+msgstr "غير مدفوعة"
+
+#: includes/wc-bookings-functions.php:70
+#: templates/emails/admin-booking-cancelled.php:61
+#: templates/emails/admin-new-booking.php:84
+#: templates/emails/customer-booking-cancelled.php:68
+#: templates/emails/customer-booking-confirmed.php:68
+#: templates/emails/customer-booking-notification.php:59
+#: templates/emails/customer-booking-pending-confirmation.php:68
+#: templates/emails/customer-booking-reminder.php:73
+msgid "Time Zone"
+msgstr "المنطقة الزمنيّة"
+
+#: includes/wc-bookings-functions.php:69
+msgid "Booking Time"
+msgstr "وقت الحجز"
+
+#: includes/wc-bookings-functions.php:68
+msgid "Booking Date"
+msgstr "تاريخ الحجز"
+
+#: includes/integrations/class-wc-bookings-deposits.php:149
+msgid "Partially Paid"
+msgstr "تم الدفع جزئيًا"
+
+#. translators: 1: count, 2: count
+#: includes/integrations/class-wc-bookings-deposits.php:136
+msgid "Partially Paid <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Paid <span class=\"count\">(%s)</span>"
+msgstr[0] "تم دفع <span class=\"count\">(%s)</span> جزئيًا"
+msgstr[1] "تم دفع <span class=\"count\">(%s)</span> جزئيًا"
+msgstr[2] "تم دفع <span class=\"count\">(%s)</span> جزئيًا"
+msgstr[3] "تم دفع <span class=\"count\">(%s)</span> جزئيًا"
+msgstr[4] "تم دفع <span class=\"count\">(%s)</span> جزئيًا"
+msgstr[5] "تم دفع <span class=\"count\">(%s)</span> جزئيًا"
+
+#: includes/integrations/class-wc-bookings-deposits.php:130
+msgctxt "woocommerce-bookings"
+msgid "Partially Paid"
+msgstr "تم الدفع جزئيًا"
+
+#: includes/integrations/class-wc-bookings-addons.php:69
+#: includes/integrations/class-wc-bookings-addons.php:76
+msgid "Only applies to options which use quantity based prices."
+msgstr "لا يسري إلا على الخيارات التي تستخدم أسعارًا قائمة على الكمية."
+
+#: includes/integrations/class-wc-bookings-addons.php:58
+#: includes/integrations/class-wc-bookings-addons.php:75
+msgid "Bookings: Multiply cost by block count"
+msgstr "الحجوزات: ضرب التكلفة في عدد المكوِّنات"
+
+#: includes/integrations/class-wc-bookings-addons.php:54
+#: includes/integrations/class-wc-bookings-addons.php:68
+msgid "Bookings: Multiply cost by person count"
+msgstr "الحجوزات: ضرب التكلفة في عدد الأشخاص"
+
+#: includes/gateways/class-wc-bookings-gateway.php:86
+msgid "Your booking is awaiting confirmation. You will be notified by email as soon as we've confirmed availability."
+msgstr "حجزك في انتظار التأكيد. سيتم إخطارك عبر رسائل البريد الإلكتروني بمجرد تأكيدنا للتوافر. "
+
+#: includes/gateways/class-wc-bookings-gateway.php:84
+msgid "Your booking has been confirmed. Thank you."
+msgstr "تم تأكيد حجزك. شكرًا لك."
+
+#: includes/gateways/class-wc-bookings-gateway.php:65
+msgid "This order is awaiting confirmation from the shop manager"
+msgstr "هذا الطلب في انتظار التأكيد من مدير المتجر"
+
+#: includes/gateways/class-wc-bookings-gateway.php:31
+msgid "This gateway requires no configuration."
+msgstr "لا تتطلب هذه البوابة تكوينًا."
+
+#: includes/gateways/class-wc-bookings-gateway.php:30
+msgid "This is fictitious payment method used for bookings that requires confirmation."
+msgstr "هذه طريقة دفع وهمية تُستخدم للحجوزات التي تتطلب تأكيدًا."
+
+#: includes/gateways/class-wc-bookings-gateway.php:17
+msgid "Request Confirmation"
+msgstr "تأكيد الطلب"
+
+#: includes/gateways/class-wc-bookings-gateway.php:15
+msgid "Check booking availability"
+msgstr "التحقُّق من توافر الحجز"
+
+#. translators: %s: heading confirmation
+#: includes/emails/class-wc-email-new-booking.php:234
+msgid "This controls the main heading contained within the email notification for Pending confirmation bookings. Leave blank to use the default heading: <code>%s</code>."
+msgstr "يتحكم هذا في العنوان الرئيس المضمَّن في تنبيهات رسائل البريد الإلكتروني الخاصة بالحجوزات التي في انتظار التأكيد. اترك فراغًا لاستخدام العنوان الافتراضي: <code>%s</code>."
+
+#: includes/emails/class-wc-email-new-booking.php:231
+msgid "Email Heading (Pending confirmation)"
+msgstr "عنوان رسالة البريد الإلكتروني (في انتظار التأكيد)"
+
+#. translators: %s: subject confirmation
+#: includes/emails/class-wc-email-new-booking.php:218
+msgid "This controls the email subject line for Pending confirmation bookings. Leave blank to use the default subject: <code>%s</code>."
+msgstr "يتحكم هذا في سطر موضوع رسالة البريد الإلكتروني للحجوزات التي في انتظار التأكيد. اترك فراغًا لاستخدام الموضوع الافتراضي: <code>%s</code>."
+
+#: includes/emails/class-wc-email-new-booking.php:215
+msgid "Subject (Pending confirmation)"
+msgstr "الموضوع (في انتظار التأكيد)"
+
+#: includes/emails/class-wc-email-new-booking.php:31
+msgid "[{blogname}] A new booking for {product_title} (Order {order_number}) is awaiting your approval - {order_date}"
+msgstr "[{blogname}] ثمَّة حجز جديد لـ {product_title} (الطلب {order_number}) في انتظار موافقتك - {order_date}"
+
+#: includes/emails/class-wc-email-new-booking.php:30
+msgid "[{blogname}] New booking for {product_title} (Order {order_number}) - {order_date}"
+msgstr "[{blogname}] حجز جديد لـ {product_title} (الطلب {order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-new-booking.php:29
+#: templates/order/admin/booking-display.php:74
+msgid "Confirm booking"
+msgstr "تأكيد الحجز"
+
+#: includes/emails/class-wc-email-new-booking.php:28
+msgid "New booking"
+msgstr "حجز جديد"
+
+#: includes/emails/class-wc-email-new-booking.php:26
+msgid "New booking emails are sent to the admin when a new booking is created and paid. This email is also received when a Pending confirmation booking is created."
+msgstr "ترسَل رسائل الحجوزات الجديدة عبر البريد الإلكتروني إلى المسؤول عند إنشاء حجز جديد ودفعه. يتم تسلُّم هذه الرسالة عبر البريد الإلكتروني أيضًا عند إنشاء حجز في انتظار التأكيد."
+
+#: includes/emails/class-wc-email-booking-reminder.php:22
+msgid "[{blogname}] A reminder about your booking of {product_title}"
+msgstr "[{blogname}] تذكير بشأن حجزك لـ {product_title}"
+
+#: includes/emails/class-wc-email-booking-reminder.php:19
+msgid "Booking reminders are sent to the customer to remind them of an upcoming booking."
+msgstr "ترسَل تذكيرات الحجوزات إلى العملاء لتذكيرهم بأحد الحجوزات المقبلة."
+
+#: includes/emails/class-wc-email-booking-reminder.php:18
+#: includes/emails/class-wc-email-booking-reminder.php:21
+msgid "Booking Reminder"
+msgstr "تذكير بالحجز"
+
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:22
+msgid "[{blogname}] Your booking of {product_title} has been received, and it's pending confirmation (Order {order_number}) - {order_date}"
+msgstr "[{blogname}] تم تسلُّم حجزك لـ {product_title}، وأصبح في انتظار التأكيد (الطلب {order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:20
+msgid "Booking pending confirmation emails are sent when the status of a booking goes to pending confirmation."
+msgstr "ترسَل رسائل الحجوزات التي في انتظار التأكيد عبر البريد الإلكتروني عندما تنتقل حالة أحد الحجوزات إلى \"في انتظار التأكيد\"."
+
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:19
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:21
+msgid "Booking Pending Confirmation"
+msgstr "الحجز في انتظار التأكيد"
+
+#: includes/emails/class-wc-email-booking-notification.php:20
+msgid "Booking notification emails are sent manually from WooCommerce > Bookings > Send Notification."
+msgstr "ترسَل رسائل عبر البريد الإلكتروني للتنبيه بالحجوزات يدويًا من WooCommerce > الحجوزات > إرسال تنبيه."
+
+#: includes/emails/class-wc-email-booking-notification.php:19
+msgid "Booking Notification"
+msgstr "تنبيه بالحجز"
+
+#: includes/emails/class-wc-email-booking-confirmed.php:22
+msgid "[{blogname}] Your booking of {product_title} has been confirmed (Order {order_number}) - {order_date}"
+msgstr "[{blogname}] تم تأكيد حجزك لـ {product_title} (الطلب {order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-booking-confirmed.php:20
+msgid "Booking confirmed emails are sent when the status of a booking goes to confirmed."
+msgstr "ترسَل رسائل تأكيد الحجز عبر البريد الإلكتروني عندما تنتقل حالة أحد الحجوزات إلى \"تم التأكيد\"."
+
+#: includes/emails/class-wc-email-booking-confirmed.php:19
+#: includes/emails/class-wc-email-booking-confirmed.php:21
+msgid "Booking Confirmed"
+msgstr "تم تأكيد حجز"
+
+#: includes/emails/class-wc-email-booking-cancelled.php:22
+msgid "[{blogname}] Your booking of {product_title} has been cancelled"
+msgstr "[{blogname}] تم إلغاء حجزك لـ {product_title}"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:191
+#: includes/emails/class-wc-email-booking-cancelled.php:186
+#: includes/emails/class-wc-email-booking-confirmed.php:184
+#: includes/emails/class-wc-email-booking-notification.php:215
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:178
+#: includes/emails/class-wc-email-booking-reminder.php:170
+#: includes/emails/class-wc-email-new-booking.php:247
+msgid "Multipart"
+msgstr "متعددة الأجزاء"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:190
+#: includes/emails/class-wc-email-booking-cancelled.php:185
+#: includes/emails/class-wc-email-booking-confirmed.php:183
+#: includes/emails/class-wc-email-booking-notification.php:214
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:177
+#: includes/emails/class-wc-email-booking-reminder.php:169
+#: includes/emails/class-wc-email-new-booking.php:246
+msgid "HTML"
+msgstr "تحرير HTML"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:189
+#: includes/emails/class-wc-email-booking-cancelled.php:184
+#: includes/emails/class-wc-email-booking-confirmed.php:182
+#: includes/emails/class-wc-email-booking-notification.php:213
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:176
+#: includes/emails/class-wc-email-booking-reminder.php:168
+#: includes/emails/class-wc-email-new-booking.php:245
+msgid "Plain text"
+msgstr "نص عادي"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:185
+#: includes/emails/class-wc-email-booking-cancelled.php:180
+#: includes/emails/class-wc-email-booking-confirmed.php:178
+#: includes/emails/class-wc-email-booking-notification.php:209
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:172
+#: includes/emails/class-wc-email-booking-reminder.php:164
+#: includes/emails/class-wc-email-new-booking.php:241
+msgid "Choose which format of email to send."
+msgstr "اختيار صيغة رسالة البريد الإلكتروني المرسلة"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:183
+#: includes/emails/class-wc-email-booking-cancelled.php:178
+#: includes/emails/class-wc-email-booking-confirmed.php:176
+#: includes/emails/class-wc-email-booking-notification.php:207
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:170
+#: includes/emails/class-wc-email-booking-reminder.php:162
+#: includes/emails/class-wc-email-new-booking.php:239
+msgid "Email type"
+msgstr "نوع البريد الإلكتروني"
+
+#. translators: %s: heading
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:178
+#: includes/emails/class-wc-email-booking-cancelled.php:173
+#: includes/emails/class-wc-email-booking-confirmed.php:171
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:165
+#: includes/emails/class-wc-email-booking-reminder.php:157
+#: includes/emails/class-wc-email-new-booking.php:226
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "يتحكم هذا في العنوان الرئيس المضمَّن داخل تنبيهات رسائل البريد الإلكتروني. اترك فراغًا لاستخدام العنوان الافتراضي: <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:175
+#: includes/emails/class-wc-email-booking-cancelled.php:170
+#: includes/emails/class-wc-email-booking-confirmed.php:168
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:162
+#: includes/emails/class-wc-email-booking-reminder.php:154
+#: includes/emails/class-wc-email-new-booking.php:223
+msgid "Email Heading"
+msgstr "عنوان البريد الإلكتروني"
+
+#. translators: %s: subject
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:170
+#: includes/emails/class-wc-email-booking-cancelled.php:165
+#: includes/emails/class-wc-email-booking-confirmed.php:163
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:157
+#: includes/emails/class-wc-email-booking-reminder.php:149
+#: includes/emails/class-wc-email-new-booking.php:210
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "يتحكم هذا في سطر موضوع البريد الإلكتروني. اترك فراغًا لاستخدام الموضوع الافتراضي: <code>%s</code>."
+
+#. translators: %s: admin email
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:162
+#: includes/emails/class-wc-email-new-booking.php:202
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "أدخل مستلمين (يُفصل بينهم بفواصل) لهذا البريد الإلكتروني. الإعدادات الافتراضية إلى <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:159
+#: includes/emails/class-wc-email-new-booking.php:199
+msgid "Recipient(s)"
+msgstr "المستلم"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:155
+#: includes/emails/class-wc-email-booking-cancelled.php:158
+#: includes/emails/class-wc-email-booking-confirmed.php:156
+#: includes/emails/class-wc-email-booking-notification.php:203
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:150
+#: includes/emails/class-wc-email-booking-reminder.php:142
+#: includes/emails/class-wc-email-new-booking.php:195
+msgid "Enable this email notification"
+msgstr "تفعيل إشعارات البريد الإلكتروني"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:153
+#: includes/emails/class-wc-email-booking-cancelled.php:156
+#: includes/emails/class-wc-email-booking-confirmed.php:154
+#: includes/emails/class-wc-email-booking-notification.php:201
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:148
+#: includes/emails/class-wc-email-booking-reminder.php:140
+#: includes/emails/class-wc-email-new-booking.php:193
+msgid "Enable/Disable"
+msgstr "تفعيل/تعطيل"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:21
+msgid "[{blogname}] A booking of {product_title} has been cancelled"
+msgstr "[{blogname}] تم إلغاء حجز {product_title}"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:20
+#: includes/emails/class-wc-email-booking-cancelled.php:18
+#: includes/emails/class-wc-email-booking-cancelled.php:21
+msgid "Booking Cancelled"
+msgstr "تم إلغاء الحجز"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:19
+#: includes/emails/class-wc-email-booking-cancelled.php:19
+msgid "Booking cancelled emails are sent when the status of a booking goes to cancelled."
+msgstr "ترسَل رسائل إلغاء الحجز عبر البريد الإلكتروني عندما تنتقل حالة أحد الحجوزات إلى \"تم الإلغاء\"."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:18
+msgid "Admin Booking Cancelled"
+msgstr "تم إلغاء حجز المسؤول"
+
+#: includes/data-stores/class-wc-product-booking-person-type-data-store-cpt.php:49
+msgid "Invalid booking person type."
+msgstr "نوع شخص الحجز غير صالح."
+
+#. translators: 1: person type sort order
+#: includes/data-stores/class-wc-product-booking-person-type-data-store-cpt.php:16
+#: includes/data-stores/class-wc-product-booking-person-type-data-store-cpt.php:80
+msgid "Person Type #%d"
+msgstr "نوع الشخص رقم%d"
+
+#: includes/data-stores/class-wc-global-availability-data-store.php:105
+msgid "Invalid event."
+msgstr "حدث غير صالح."
+
+#. translators: Booking date format parsed by strftime
+#: includes/data-stores/class-wc-booking-data-store.php:50
+msgctxt "Booking date format parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d، %Y @ %I:%M %p"
+
+#. translators: %s: Booking date
+#: includes/data-stores/class-wc-booking-data-store.php:48
+msgid "Booking &ndash; %s"
+msgstr "الحجز &ndash; %s"
+
+#: includes/data-objects/class-wc-product-booking.php:2417
+msgid "Sorry, the selected block is not available"
+msgstr "عذرًا، المكوِّن المحدَّد غير متوافر"
+
+#. translators: 1: person name 2: minimum persons
+#: includes/data-objects/class-wc-product-booking.php:2398
+msgid "The minimum %1$s per group is %2$d"
+msgstr "الحد الأدنى لـ ⁦%1$s⁩ في كل مجموعة هو ⁦%2$d⁩"
+
+#. translators: 1: person name 2: maximum persons
+#: includes/data-objects/class-wc-product-booking.php:2392
+msgid "The maximum %1$s per group is %2$d"
+msgstr "الحد الأقصى لـ ⁦%1$s⁩ في كل مجموعة هو ⁦%2$d⁩"
+
+#. translators: 1: minimum persons
+#: includes/data-objects/class-wc-product-booking.php:2381
+msgid "The minimum persons per group is %d"
+msgstr "الحد الأدنى للأشخاص في كل مجموعة هو %d"
+
+#. translators: 1: maximum persons
+#: includes/data-objects/class-wc-product-booking.php:2377
+msgid "The maximum persons per group is %d"
+msgstr "الحد الأقصى للأشخاص في كل مجموعة هو %d"
+
+#: includes/data-objects/class-wc-product-booking.php:2367
+msgid "Sorry, bookings cannot start on this day."
+msgstr "عذرًا، لا يمكن بدء الحجوزات في هذا اليوم."
+
+#. translators: 1: maximum date
+#: includes/data-objects/class-wc-product-booking.php:2358
+msgid "The latest booking possible is currently %s."
+msgstr "آخر حجز ممكن هو %s حاليًا."
+
+#. translators: 1: minimum date
+#: includes/data-objects/class-wc-product-booking.php:2349
+msgid "The earliest booking possible is currently %s."
+msgstr "أقرب حجز ممكن هو %s حاليًا."
+
+#: includes/data-objects/class-wc-product-booking.php:2328
+#: includes/data-objects/class-wc-product-booking.php:2331
+msgid "You must choose a future date and time."
+msgstr "يجب أن تختار تاريخ ووقت في المستقبل."
+
+#: includes/data-objects/class-wc-product-booking.php:2325
+msgid "Time is required - please choose one above"
+msgstr "الوقت مطلوب - يرجى اختيار واحد أعلاه"
+
+#: includes/data-objects/class-wc-product-booking.php:2322
+msgid "Date is required - please choose one above"
+msgstr "التاريخ مطلوب - يرجى اختيار واحد أعلاه"
+
+#: includes/data-objects/class-wc-product-booking.php:2285
+msgid "Duration is required - please enter a duration greater than zero"
+msgstr "المدة مطلوبة - يرجى إدخال مدة أكبر من صفر"
+
+#: includes/data-objects/class-wc-product-booking.php:2274
+msgid "Please choose a resource type"
+msgstr "يرجى اختيار نوع المورد"
+
+#: includes/data-objects/class-wc-product-booking.php:2152
+msgid "This block cannot be booked."
+msgstr "لا يمكن حجز هذا المكوِّن."
+
+#. translators: 1: available quantity 2: booking block date
+#: includes/data-objects/class-wc-product-booking.php:1563
+#: includes/data-objects/class-wc-product-booking.php:1570
+msgid "There is a maximum of %1$d place remaining on %2$s"
+msgid_plural "There are a maximum of %1$d places remaining on %2$s"
+msgstr[0] "ثمَّة ⁦%1$d⁩ من الأماكن بحد أقصى متبقية في ⁦%2$s⁩"
+msgstr[1] "ثمَّة ⁦%1$d⁩ من الأماكن بحد أقصى متبقية في ⁦%2$s⁩"
+msgstr[2] "ثمَّة ⁦%1$d⁩ من الأماكن بحد أقصى متبقية في ⁦%2$s⁩"
+msgstr[3] "ثمَّة ⁦%1$d⁩ من الأماكن بحد أقصى متبقية في ⁦%2$s⁩"
+msgstr[4] "ثمَّة ⁦%1$d⁩ من الأماكن بحد أقصى متبقية في ⁦%2$s⁩"
+msgstr[5] "ثمَّة ⁦%1$d⁩ من الأماكن بحد أقصى متبقية في ⁦%2$s⁩"
+
+#. translators: 1: available quantity
+#: includes/data-objects/class-wc-product-booking.php:1557
+msgid "There is a maximum of %d place remaining"
+msgid_plural "There are a maximum of %d places remaining"
+msgstr[0] "ثمَّة %d من الأماكن بحد أقصى متبقية"
+msgstr[1] "ثمَّة %d من الأماكن بحد أقصى متبقية"
+msgstr[2] "ثمَّة %d من الأماكن بحد أقصى متبقية"
+msgstr[3] "ثمَّة %d من الأماكن بحد أقصى متبقية"
+msgstr[4] "ثمَّة %d من الأماكن بحد أقصى متبقية"
+msgstr[5] "ثمَّة %d من الأماكن بحد أقصى متبقية"
+
+#: includes/data-objects/class-wc-product-booking.php:153
+msgid "Free"
+msgstr "مجانًا"
+
+#. translators: 1: display price
+#: includes/data-objects/class-wc-product-booking.php:148
+msgid "From: %s"
+msgstr "من: %s"
+
+#: includes/data-objects/class-wc-product-booking.php:96
+msgid "Book now"
+msgstr "حجز الآن"
+
+#: includes/data-objects/class-wc-product-booking.php:96
+msgid "Check Availability"
+msgstr "التحقُّق من التوافر"
+
+#. translators: 1: guest name
+#: includes/data-objects/class-wc-booking.php:909
+msgctxt "Guest string with name from booking order in brackets"
+msgid "%s (Guest)"
+msgstr "%s (ضيف)"
+
+#. translators: 1: booking id 2: old status 3: new status
+#: includes/data-objects/class-wc-booking.php:284
+msgid "Booking #%1$d status changed from \"%2$s\" to \"%3$s\""
+msgstr "تم تغيير حالة الحجز رقم ⁦%1$d⁩ من \"⁦%2$s⁩\" إلى \"⁦%3$s⁩\""
+
+#: includes/data-objects/class-wc-booking.php:230
+#: includes/data-objects/class-wc-booking.php:1074
+msgid "Was In Cart"
+msgstr "كانت في عربة التسوق"
+
+#: includes/compatibility/class-wc-product-data-store-cpt.php:116
+msgid "Invalid product."
+msgstr "منتج غير صالح."
+
+#: includes/compatibility/class-wc-product-data-store-cpt.php:78
+#: includes/data-stores/class-wc-product-booking-data-store-cpt.php:101
+#: templates/emails/customer-booking-confirmed.php:127
+msgid "Product"
+msgstr "المنتج"
+
+#: includes/compatibility/class-wc-data-store.php:72
+#: includes/compatibility/class-wc-data-store.php:77
+msgid "Invalid data store."
+msgstr "مخزن البيانات غير صالح."
+
+#: includes/class-wc-product-booking-manager.php:55
+msgid "You cannot trash/delete a resource that has Bookings associated with it."
+msgstr "لا يمكنك وضع مورد ترتبط به الحجوزات في سلة المهملات أو حذفه."
+
+#: includes/class-wc-product-booking-manager.php:44
+#: includes/class-wc-product-booking-manager.php:60
+msgid "Please visit our Bookings FAQs for more information"
+msgstr "يرجى زيارة قسم الأسئلة المتداولة التي نطرحها حول الحجوزات للحصول على مزيد من المعلومات "
+
+#: includes/class-wc-product-booking-manager.php:39
+msgid "You cannot trash/delete a bookable product that has Bookings associated with it."
+msgstr "لا يمكنك وضع منتج قابل للحجز ترتبط به الحجوزات في سلة المهملات أو حذفه."
+
+#. translators: 1: URL to Firstday settings 2: first day of week
+#: includes/class-wc-bookings-timezone-settings.php:132
+msgid "Set start day from <a href=\"%1$s\">WordPress settings</a> (%2$s)"
+msgstr "حدِّد يوم البدء من <a href=\"%1$s\">إعدادات ووردبريس</a> (%2$s)"
+
+#: includes/class-wc-bookings-timezone-settings.php:130
+msgid "Set start day from visitor's locale"
+msgstr "تعيين يوم البدء من الإعدادات المحلية للزائر"
+
+#: includes/class-wc-bookings-timezone-settings.php:126
+msgid "Calendar start day"
+msgstr "يوم بدء التقويم"
+
+#: includes/class-wc-bookings-timezone-settings.php:121
+msgid "Whether to display the current timezone on the calendar frontend"
+msgstr "سواء أكان سيتم عرض المنطقة الزمنية الحالية على واجهة التقويم الأمامية أم لا"
+
+#: includes/class-wc-bookings-timezone-settings.php:120
+msgid "Display a timezone"
+msgstr "عرض المنطقة الزمنية"
+
+#. translators: 1: URL to Timezone String settings
+#: includes/class-wc-bookings-timezone-settings.php:116
+msgid "<div>Due to the sites current UTC offset selection the timezone above is displaying an estimation.</div><div>To ensure accurate timezone setups, select a location based timezone in the <a href=\"%1$s\">WordPress settings</a>.</div>"
+msgstr "<div>نظرًا إلى تحديد إزاحة التوقيت العالمي المتفق عليه (UTC) الحالية الخاصة بالمواقع، تعرض المنطقة الزمنية الواردة أعلاه تقديرًا.</div><div>لضمان عمليات إعداد دقيقة للمنطقة الزمنية، حدِّد منطقة زمنية قائمة على موقع في <a href=\"%1$s\">إعدادات ووردبريس</a>.</div>"
+
+#. translators: 1: URL to Timezone String settings 2: server timezone
+#: includes/class-wc-bookings-timezone-settings.php:111
+msgid "Display your local time from <a href=\"%1$s\">WordPress settings</a> (%2$s)"
+msgstr "عرض وقتك المحلي من <a href=\"%1$s\">إعدادات ووردبريس</a> (%2$s)"
+
+#: includes/class-wc-bookings-timezone-settings.php:109
+msgid "Display visitor's local time"
+msgstr "عرض الوقت المحلي للزائر"
+
+#: includes/class-wc-bookings-timezone-settings.php:105
+msgid "Timezone"
+msgstr "المنطقة الزمنيّة"
+
+#: includes/class-wc-bookings-timezone-settings.php:100
+msgid "Schedule Bookings events, such as reminder emails and auto-completions of bookings, using your site’s configured timezone."
+msgstr "يمكنك جدولة أحداث الحجوزات، مثل رسائل التذكير عبر البريد الإلكتروني وعمليات الإكمال التلقائية للحجوزات، باستخدام المنطقة الزمنية التي تم تكوينها في موقعك."
+
+#: includes/class-wc-bookings-timezone-settings.php:99
+msgid "Enable Bookings Timezone Calculation"
+msgstr "تمكين حساب المنطقة الزمنية للحجوزات"
+
+#. translators: 1: count, 2: count
+#: includes/class-wc-bookings-init.php:189
+msgid "In Cart <span class=\"count\">(%s)</span>"
+msgid_plural "In Cart <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> في عربة التسوق"
+msgstr[1] "<span class=\"count\">(%s)</span> في عربة التسوق"
+msgstr[2] "<span class=\"count\">(%s)</span> في عربة التسوق"
+msgstr[3] "<span class=\"count\">(%s)</span> في عربة التسوق"
+msgstr[4] "<span class=\"count\">(%s)</span> في عربة التسوق"
+msgstr[5] "<span class=\"count\">(%s)</span> في عربة التسوق"
+
+#: includes/class-wc-bookings-init.php:183
+msgctxt "woocommerce-bookings"
+msgid "In Cart"
+msgstr "في عربة التسوق"
+
+#. translators: 1: count, 2: count
+#: includes/class-wc-bookings-init.php:180
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> التي تم إلغاؤها"
+msgstr[1] "<span class=\"count\">(%s)</span> التي تم إلغاؤها"
+msgstr[2] "<span class=\"count\">(%s)</span> الذي تم إلغاؤه"
+msgstr[3] "<span class=\"count\">(%s)</span> التي تم إلغاؤها"
+msgstr[4] "<span class=\"count\">(%s)</span> التي تم إلغاؤها"
+msgstr[5] "<span class=\"count\">(%s)</span> التي تم إلغاؤها"
+
+#: includes/class-wc-bookings-init.php:174
+msgctxt "woocommerce-bookings"
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. translators: 1: count, 2: count
+#: includes/class-wc-bookings-init.php:171
+msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> في انتظار التأكيد"
+msgstr[1] "<span class=\"count\">(%s)</span> في انتظار التأكيد"
+msgstr[2] "<span class=\"count\">(%s)</span> في انتظار التأكيد"
+msgstr[3] "<span class=\"count\">(%s)</span> في انتظار التأكيد"
+msgstr[4] "<span class=\"count\">(%s)</span> في انتظار التأكيد"
+msgstr[5] "<span class=\"count\">(%s)</span> في انتظار التأكيد"
+
+#: includes/class-wc-bookings-init.php:165
+msgctxt "woocommerce-bookings"
+msgid "Pending Confirmation"
+msgstr "في انتظار التأكيد"
+
+#. translators: 1: count, 2: count
+#: includes/class-wc-bookings-init.php:162
+msgid "Un-paid <span class=\"count\">(%s)</span>"
+msgid_plural "Un-paid <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> لم يتم دفعها"
+msgstr[1] "<span class=\"count\">(%s)</span> لم يتم دفعها"
+msgstr[2] "<span class=\"count\">(%s)</span> لم يتم دفعها"
+msgstr[3] "<span class=\"count\">(%s)</span> لم يتم دفعها"
+msgstr[4] "<span class=\"count\">(%s)</span> لم يتم دفعها"
+msgstr[5] "<span class=\"count\">(%s)</span> لم يتم دفعها"
+
+#: includes/class-wc-bookings-init.php:156
+msgctxt "woocommerce-bookings"
+msgid "Un-paid"
+msgstr "لم يتم دفعها"
+
+#. translators: 1: count, 2: count
+#: includes/class-wc-bookings-init.php:153
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> التي تم تأكيدها"
+msgstr[1] "<span class=\"count\">(%s)</span> التي تم تأكيدها"
+msgstr[2] "<span class=\"count\">(%s)</span> التي تم تأكيدها"
+msgstr[3] "<span class=\"count\">(%s)</span> التي تم تأكيدها"
+msgstr[4] "<span class=\"count\">(%s)</span> التي تم تأكيدها"
+msgstr[5] "<span class=\"count\">(%s)</span> التي تم تأكيدها"
+
+#: includes/class-wc-bookings-init.php:147
+msgctxt "woocommerce-bookings"
+msgid "Confirmed"
+msgstr "تم التأكيد"
+
+#. translators: 1: count, 2: count
+#: includes/class-wc-bookings-init.php:144
+msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> التي تم دفعها أو تأكيدها"
+msgstr[1] "<span class=\"count\">(%s)</span> التي تم دفعها أو تأكيدها"
+msgstr[2] "<span class=\"count\">(%s)</span> التي تم دفعها أو تأكيدها"
+msgstr[3] "<span class=\"count\">(%s)</span> التي تم دفعها أو تأكيدها"
+msgstr[4] "<span class=\"count\">(%s)</span> التي تم دفعها أو تأكيدها"
+msgstr[5] "<span class=\"count\">(%s)</span> التي تم دفعها أو تأكيدها"
+
+#: includes/class-wc-bookings-init.php:138
+msgctxt "woocommerce-bookings"
+msgid "Paid &amp; Confirmed"
+msgstr "تم الدفع أو تم التأكيد"
+
+#. translators: 1: count, 2: count
+#: includes/class-wc-bookings-init.php:135
+msgid "Complete <span class=\"count\">(%s)</span>"
+msgid_plural "Complete <span class=\"count\">(%s)</span>"
+msgstr[0] "اكتملت <span class=\"count\">(%s)</span>"
+msgstr[1] "اكتملت <span class=\"count\">(%s)</span>"
+msgstr[2] "اكتملت <span class=\"count\">(%s)</span>"
+msgstr[3] "اكتملت <span class=\"count\">(%s)</span>"
+msgstr[4] "اكتملت <span class=\"count\">(%s)</span>"
+msgstr[5] "اكتملت <span class=\"count\">(%s)</span>"
+
+#: includes/class-wc-bookings-init.php:129
+msgctxt "woocommerce-bookings"
+msgid "Complete"
+msgstr "(مُكتمل)"
+
+#: includes/class-wc-bookings-init.php:106
+msgid "This is where bookings are stored."
+msgstr "هذا هو المكان الذي ستخزَّن فيه الحجوزات."
+
+#: includes/class-wc-bookings-init.php:104
+msgid "All Bookings"
+msgstr "كل الحجوزات"
+
+#: includes/class-wc-bookings-init.php:103
+msgctxt "Admin menu name"
+msgid "Bookings"
+msgstr "الحجوزات"
+
+#: includes/class-wc-bookings-init.php:102
+msgid "Parent Bookings"
+msgstr "الحجوزات الأصلية"
+
+#: includes/class-wc-bookings-init.php:101
+msgid "No Bookings found in trash"
+msgstr "لم يتم العثور على أي حجوزات في سلة المهملات"
+
+#: includes/class-wc-bookings-init.php:100
+msgid "No Bookings found"
+msgstr "لم يتم العثور على أي حجوزات"
+
+#: includes/class-wc-bookings-init.php:99
+msgid "Search Bookings"
+msgstr "البحث عن الحجوزات"
+
+#: includes/class-wc-bookings-init.php:97
+#: includes/class-wc-bookings-init.php:98
+msgid "View Booking"
+msgstr "عرض الحجز"
+
+#: includes/class-wc-bookings-init.php:96
+#: includes/emails/class-wc-email-new-booking.php:25
+msgid "New Booking"
+msgstr "حجز جديد"
+
+#: includes/class-wc-bookings-init.php:95
+msgid "Edit Booking"
+msgstr "تحرير الحجز"
+
+#: includes/class-wc-bookings-init.php:93
+msgid "Add New Booking"
+msgstr "إضافة حجز جديد"
+
+#: includes/class-wc-bookings-init.php:66
+msgid "Bookable resources are bookable within a bookings product."
+msgstr "يمكن حجز الموارد القابلة للحجز ضمن منتج الحجز. "
+
+#: includes/class-wc-bookings-init.php:63
+msgctxt "Admin menu name"
+msgid "Resources"
+msgstr "الموارد"
+
+#: includes/class-wc-bookings-init.php:62
+msgid "Parent Resources"
+msgstr "الموارد الأصلية"
+
+#: includes/class-wc-bookings-init.php:61
+msgid "No Resource found in trash"
+msgstr "لم يتم العثور على أي مورد في سلة المهملات"
+
+#: includes/class-wc-bookings-init.php:60
+msgid "No Resource found"
+msgstr "لم يتم العثور على أي مورد"
+
+#: includes/class-wc-bookings-init.php:59
+msgid "Search Resource"
+msgstr "البحث عن مورد"
+
+#: includes/class-wc-bookings-init.php:57
+#: includes/class-wc-bookings-init.php:58
+msgid "View Resource"
+msgstr "عرض المورد"
+
+#: includes/class-wc-bookings-init.php:56
+msgid "New Resource"
+msgstr "مورد جديد"
+
+#: includes/class-wc-bookings-init.php:55
+msgid "Edit Resource"
+msgstr "تحرير مورد"
+
+#: includes/class-wc-bookings-init.php:53
+msgid "Add New Resource"
+msgstr "إضافة مورد جديد"
+
+#: includes/class-wc-bookings-init.php:52
+msgid "Add Resource"
+msgstr "إضافة مورد"
+
+#: includes/class-wc-bookings-init.php:51
+msgid "Bookable resource"
+msgstr "مورد قابل للحجز"
+
+#: includes/class-wc-bookings-init.php:50
+msgid "Bookable resources"
+msgstr "موارد قابلة للحجز"
+
+#: includes/class-wc-bookings-init.php:35
+msgid "Person Type"
+msgstr "نوع الشخص"
+
+#: includes/class-wc-bookings-ics-exporter.php:196
+msgid "Booking description:"
+msgstr "وصف الحجز:"
+
+#. translators: 1: site name
+#: includes/class-wc-bookings-ics-exporter.php:164
+msgid "Bookings from %s"
+msgstr "حجوزات من %s"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1450
+#: includes/class-wc-bookings-init.php:88
+#: includes/class-wc-bookings-init.php:91
+msgid "Booking"
+msgstr "حجز"
+
+#. translators: %s URL to edit booking
+#: includes/class-wc-bookings-google-calendar-connection.php:1420
+msgid "NOTE: this event cannot be edited in Google Calendar. If you need to make changes, <a href=\"%s\" target=\"_blank\">please edit this booking in WooCommerce</a>."
+msgstr "ملحوظة: لا يمكن تحرير هذا الحدث في تقويم غوغل. إذا كان يتعين عليك إجراء تغييرات، <a href=\"%s\" target=\"_blank\">فيرجى تحرير هذا الحجز في WooCommerce</a>."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1404
+#: includes/wc-bookings-functions.php:67
+#: templates/emails/admin-booking-cancelled.php:47
+#: templates/emails/admin-new-booking.php:70
+#: templates/emails/customer-booking-cancelled.php:54
+#: templates/emails/customer-booking-confirmed.php:54
+#: templates/emails/customer-booking-notification.php:45
+#: templates/emails/customer-booking-pending-confirmation.php:54
+#: templates/emails/customer-booking-reminder.php:59
+msgid "Booking Type"
+msgstr "نوع الحجز"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1403
+#: templates/emails/admin-booking-cancelled.php:37
+#: templates/emails/admin-new-booking.php:60
+#: templates/emails/customer-booking-cancelled.php:44
+#: templates/emails/customer-booking-confirmed.php:44
+#: templates/emails/customer-booking-notification.php:35
+#: templates/emails/customer-booking-pending-confirmation.php:44
+#: templates/emails/customer-booking-reminder.php:49
+msgid "Booking ID"
+msgstr "معرِّف الحجز"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1235
+msgid "Failed to connect to your account, please try again, if the problem persists, turn on Debug Log option and see what is happening."
+msgstr "فشل الاتصال بحسابك، يرجى المحاولة مجددًا؛ إذا استمرت المشكلة، فيمكنك تشغيل خيار سجل التصحيح ومعرفة ماذا يحدث."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1215
+msgid "Account connected successfully!"
+msgstr "تم الاتصال بحسابك بنجاح!"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1170
+#: includes/class-wc-bookings-google-calendar-connection.php:1273
+msgid "Permission denied!"
+msgstr "تم رفض الصلاحية!"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1138
+msgid "Account not properly connected, reset successfully!"
+msgstr "لم يتم الاتصال بالحساب بشكل صحيح، أعد التعيين بنجاح!"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1135
+msgid "Failed to disconnect to your account, please try again, if the problem persists, turn on Debug Log option and see what is happening."
+msgstr "فشل إلغاء الاتصال بحسابك، يرجى المحاولة مجددًا؛ إذا استمرت المشكلة، فيمكنك تشغيل خيار سجل التصحيح ومعرفة ماذا يحدث."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1133
+msgid "Account disconnected successfully!"
+msgstr "تم إلغاء الاتصال بحسابك بنجاح!"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:990
+#: includes/class-wc-bookings-google-calendar-connection.php:1086
+msgid "Disconnect"
+msgstr "قطع الاتصال"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:989
+#: includes/class-wc-bookings-google-calendar-connection.php:1085
+msgid "Successfully authenticated."
+msgstr "تمت المصادقة بنجاح."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1081
+msgid "Connect with Google"
+msgstr "الاتصال بغوغل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1005
+msgid "Select a calendar from the list"
+msgstr "تحديد تقويم من القائمة"
+
+#. translators: 1: log file path
+#: includes/class-wc-bookings-google-calendar-connection.php:915
+msgid "Log Google Calendar events, such as API requests, inside %s"
+msgstr "أحداث تقويم غوغل في السجل، مثل طلبات واجهة برمجة التطبيقات، في الداخل %s"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:912
+msgid "Enable logging"
+msgstr "تفعيل تسجيل العمليات"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:910
+msgid "Debug Log"
+msgstr "سجل التصحيح"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:897
+msgid "Manage the sync flow between your Store calendar and Google calendar."
+msgstr "يمكنك إدارة تدفق المزامنة بين تقويم مخزنك وتقويم غوغل."
+
+#: includes/class-wc-bookings-google-calendar-connection.php:895
+msgid "Sync one way - from Store to Google"
+msgstr "مزامنة من اتجاه واحد - من المخزن إلى غوغل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:894
+msgid "Sync both ways - between Store and Google"
+msgstr "مزامنة من اتجاهين - بين المخزن وغوغل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:892
+msgid "Sync Preference"
+msgstr "مزامنة التفضيل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:848
+#: includes/class-wc-bookings-google-calendar-connection.php:873
+msgid "Authorization"
+msgstr "تخويل"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:1133
+#: includes/class-wc-bookings-google-calendar-connection.php:1135
+#: includes/class-wc-bookings-google-calendar-connection.php:1138
+#: includes/class-wc-bookings-google-calendar-connection.php:1204
+#: includes/class-wc-bookings-google-calendar-connection.php:1215
+#: includes/class-wc-bookings-google-calendar-connection.php:1235
+msgid "Google Calendar"
+msgstr "تقويم Google"
+
+#: includes/class-wc-bookings-google-calendar-connection.php:313
+msgid "Settings saved."
+msgstr "تمّ حفظ الإعدادات."
+
+#. translators: 1: block duration days
+#: includes/class-wc-bookings-cost-calculation.php:105
+msgid "The duration of this booking must be at least %s days."
+msgstr "يجب أن تكون مدة هذا الحجز %s من الأيام على الأقل."
+
+#: includes/class-wc-booking-privacy.php:139
+msgid "WooCommerce Bookings Data Erased."
+msgstr "تم مسح بيانات الحجوزات في WooCommerce."
+
+#: includes/class-wc-booking-privacy.php:82
+msgid "Booked order ID"
+msgstr "معرِّف الطلب المحجوز "
+
+#: includes/class-wc-booking-privacy.php:74
+msgid "Booking end"
+msgstr "انتهاء الحجز"
+
+#: includes/class-wc-booking-privacy.php:70
+msgid "Booking start"
+msgstr "بدء الحجز"
+
+#: includes/class-wc-booking-privacy.php:66
+msgid "Booking Number"
+msgstr "رقم الحجز"
+
+#. translators: %s: documentation link
+#: includes/class-wc-booking-privacy.php:39
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+msgstr "يعني استخدام هذا الملحق أنه يجوز لك تخزين البيانات الشخصية أو مشاركة البيانات مع خدمة خارجية. <a href=\"%s\" target=\"_blank\">تعرَّف على المزيد حول كيفية عمل هذا، بما في ذلك ما قد تريد تضمينه في سياسة الخصوصية لديك.</a>"
+
+#: includes/class-wc-booking-privacy.php:11
+#: includes/class-wc-booking-privacy.php:12
+msgid "WooCommerce Bookings Data"
+msgstr "بيانات الحجوزات في WooCommerce"
+
+#: includes/class-wc-booking-order-manager.php:292
+msgid "Past Bookings"
+msgstr "الحجوزات السابقة"
+
+#: includes/class-wc-booking-order-manager.php:286
+msgid "Upcoming Bookings"
+msgstr "الحجوزات المقبلة"
+
+#: includes/class-wc-booking-order-manager.php:280
+msgid "Today's Bookings"
+msgstr "الحجوزات في الوقت الحالي"
+
+#: includes/class-wc-booking-order-manager.php:207
+msgid "All bookings start and end times except where stated differently are displayed in the following timezone: "
+msgstr "تُعرض أوقات بدء جميع الحجوزات وانتهائها في المنطقة الزمنية الآتية باستثناء ما تم ذكره بشكل مختلف:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:555
+#: includes/admin/class-wc-bookings-details-meta-box.php:570
+#: includes/class-wc-booking-order-manager.php:156
+#: includes/class-wc-booking-order-manager.php:178
+#: includes/class-wc-booking-privacy.php:9
+#: includes/class-wc-booking-privacy.php:62
+#: includes/class-wc-bookings-init.php:90 woocommerce-bookings.php:194
+msgid "Bookings"
+msgstr "الحجوزات"
+
+#: includes/class-wc-booking-form-handler.php:40
+#: includes/data-stores/class-wc-booking-data-store.php:89
+msgid "Invalid booking."
+msgstr "حجز غير صالح."
+
+#: includes/class-wc-booking-form-handler.php:38
+msgid "Your booking can no longer be cancelled. Please contact us if you need assistance."
+msgstr "لا يمكن إلغاء حجزك بعد الآن. يرجى الاتصال بنا إذا كنت تحتاج إلى مساعدة."
+
+#: includes/class-wc-booking-form-handler.php:34
+msgid "Your booking was cancelled."
+msgstr "تم إلغاء حجزك."
+
+#: includes/class-wc-booking-coupon.php:43
+msgid "Booking Person Discount (Amount Off Per Person)"
+msgstr "الخصم الذي يناله الشخص على الحجز (المبلغ الذي تم خصمه لكل شخص)"
+
+#: includes/class-wc-booking-cart-manager.php:460
+msgid "A booking that requires confirmation has been removed from your cart. It is not possible to complete the purchased along with a booking that doesn't require confirmation."
+msgstr "تمت إزالة حجز يتطلب تأكيدًا من عربة التسوق الخاصة بك. لا يمكن إكمال عمليات الشراء مع حجز لا يتطلب تأكيدًا."
+
+#. translators: Admin notice with list of titles and links to bookable products
+#. removed from cart.
+#: includes/class-wc-booking-cart-manager.php:236
+msgid "Bookings for %s have been removed from your cart due to inactivity."
+msgstr "تمت إزالة حجوزات %s من عربة التسوق الخاصة بك بسبب عدم النشاط."
+
+#. translators: Admin notice with title and link to bookable product removed
+#. from cart.
+#: includes/class-wc-booking-cart-manager.php:232
+msgid "A booking for %s has been removed from your cart due to inactivity."
+msgstr "تمت إزالة حجز %s من عربة التسوق الخاصة بك بسبب عدم النشاط."
+
+#: includes/booking-form/class-wc-booking-form.php:648
+msgid "End time"
+msgstr "وقت الانتهاء"
+
+#: includes/booking-form/class-wc-booking-form.php:646
+msgid "Ends"
+msgstr "ينتهي في"
+
+#. translators: %d: booking duration in hours
+#: includes/booking-form/class-wc-booking-form.php:617
+msgid "%d Hour"
+msgid_plural "%d Hours"
+msgstr[0] "%d ساعة"
+msgstr[1] "%d ساعات"
+msgstr[2] "%d ساعات"
+msgstr[3] "%d ساعات"
+msgstr[4] "%d ساعات"
+msgstr[5] "%d ساعات"
+
+#. translators: %d: booking duration in minutes
+#: includes/booking-form/class-wc-booking-form.php:613
+msgid "%d Minute"
+msgid_plural "%d Minutes"
+msgstr[0] "%d دقيقة"
+msgstr[1] "%d دقائق"
+msgstr[2] "%d دقائق"
+msgstr[3] "%d دقائق"
+msgstr[4] "%d دقائق"
+msgstr[5] "%d دقائق"
+
+#. translators: 1: quantity available
+#: includes/booking-form/class-wc-booking-form.php:513
+#: includes/booking-form/class-wc-booking-form.php:690
+msgid "%d left"
+msgid_plural "%d left"
+msgstr[0] "%d متبقٍ"
+msgstr[1] "%d متبقٍ"
+msgstr[2] "%d متبقٍ"
+msgstr[3] "%d متبقٍ"
+msgstr[4] "%d متبقٍ"
+msgstr[5] "%d متبقٍ"
+
+#: includes/booking-form/class-wc-booking-form.php:483
+msgid "Start time"
+msgstr "وقت البدء"
+
+#: includes/booking-form/class-wc-booking-form.php:481
+msgid "Starts"
+msgstr "يبدأ في"
+
+#. translators: 1: block cost 2: duration unit
+#: includes/booking-form/class-wc-booking-form.php:313
+msgid "+%1$1s per %2$2s"
+msgstr "أكثر من %1$1s لكل %2$2s"
+
+#: includes/booking-form/class-wc-booking-form.php:295
+#: includes/data-objects/class-wc-product-booking.php:2294
+#: includes/data-objects/class-wc-product-booking.php:2309
+#: includes/wc-bookings-functions.php:1147
+msgid "day"
+msgid_plural "days"
+msgstr[0] "يوم"
+msgstr[1] "أيام"
+msgstr[2] "أيام"
+msgstr[3] "أيام"
+msgstr[4] "أيام"
+msgstr[5] "أيام"
+
+#: includes/booking-form/class-wc-booking-form.php:299
+#: includes/data-objects/class-wc-product-booking.php:2298
+#: includes/data-objects/class-wc-product-booking.php:2313
+msgid "block"
+msgid_plural "blocks"
+msgstr[0] "مكوِّن"
+msgstr[1] "مكوّنات"
+msgstr[2] "مكوّنات"
+msgstr[3] "مكوّنات"
+msgstr[4] "مكوّنات"
+msgstr[5] "مكوّنات"
+
+#. translators: %s: product duration in minutes
+#: includes/booking-form/class-wc-booking-form.php:202
+msgid "&times; %s minutes"
+msgstr "&times; %s من الدقائق"
+
+#. translators: %s: product duration in hours
+#: includes/booking-form/class-wc-booking-form.php:194
+msgid "&times; %s hours"
+msgstr "&times; %s من الساعات"
+
+#: includes/booking-form/class-wc-booking-form.php:188
+msgid "Night(s)"
+msgstr "ليلة (ليال)"
+
+#. translators: %s: product duration in nights
+#: includes/booking-form/class-wc-booking-form.php:186
+msgid "&times; %s nights"
+msgstr "&times; %s من الليالي"
+
+#. translators: %s product duration in days
+#: includes/booking-form/class-wc-booking-form.php:170
+msgid "&times; %s days"
+msgstr "&times; %s من الأيام"
+
+#. translators: %s: product duration in weeks
+#: includes/booking-form/class-wc-booking-form.php:161
+#: includes/booking-form/class-wc-booking-form.php:179
+msgid "&times; %s weeks"
+msgstr "&times; %s من الأسابيع"
+
+#. translators: %s: product duration in months
+#: includes/booking-form/class-wc-booking-form.php:153
+msgid "&times; %s Months"
+msgstr "&times; %s من الأشهر"
+
+#: includes/booking-form/class-wc-booking-form.php:100
+msgid "Store server time: "
+msgstr "وقت خادم المخزن:"
+
+#: includes/booking-form/class-wc-booking-form.php:93
+msgid "To clear selection, pick a new start date"
+msgstr "لمسح التحديد، اختر تاريخ بدء جديدًا"
+
+#: includes/booking-form/class-wc-booking-form.php:92
+msgid "Please select the options for your booking and make sure duration rules apply."
+msgstr "يرجى تحديد خيارات حجزك والتأكُّد من سريان قواعد المدة."
+
+#: includes/booking-form/class-wc-booking-form.php:91
+msgid "Dates"
+msgstr "تواريخ"
+
+#: includes/booking-form/class-wc-booking-form.php:90
+msgid "Choose an End Date"
+msgstr "اختيار تاريخ انتهاء"
+
+#: includes/booking-form/class-wc-booking-form.php:89
+msgid "Choose a Start Date"
+msgstr "اختيار تاريخ بدء"
+
+#: includes/booking-form/class-wc-booking-form.php:88
+msgid "This date is available"
+msgstr "هذا التاريخ متوافر"
+
+#: includes/booking-form/class-wc-booking-form.php:87
+msgid "This date is partially booked - but bookings still remain"
+msgstr "تم حجز هذا التاريخ جزئيًا، ولكن ستظل الحجوزات باقية"
+
+#: includes/booking-form/class-wc-booking-form.php:86
+msgid "This date is fully booked and unavailable"
+msgstr "تم حجز هذا التاريخ بالكامل وأصبح غير متوافر"
+
+#: includes/booking-form/class-wc-booking-form.php:85
+msgid "This date is unavailable"
+msgstr "هذا التاريخ غير متوافر"
+
+#: includes/booking-form/class-wc-booking-form.php:36
+#: templates/myaccount/bookings.php:91
+msgid "Previous"
+msgstr "السابق"
+
+#: includes/booking-form/class-wc-booking-form.php:34
+msgid "Close"
+msgstr "إغلاق"
+
+#. translators: 1: Text to insert into label string
+#: includes/booking-form/class-wc-booking-form-picker.php:19
+msgid "Start %s"
+msgstr "بدء %s"
+
+#: includes/booking-form/class-wc-booking-form-date-picker.php:32
+#: includes/booking-form/class-wc-booking-form-datetime-picker.php:33
+msgid "Date"
+msgstr "التاريخ"
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:165
+msgid "Sorting order."
+msgstr "فرز الطلب."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:159
+msgid "Quantity of resource."
+msgstr "كمية المورد."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:153
+msgid "ID of parent bookable product."
+msgstr "معرِّف المنتج الأصلي القابل للحجز."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:147
+msgid "Name of resource."
+msgstr "اسم المورد."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:141
+msgid "Cost per block of resource."
+msgstr "التكلفة لكل مكوِّن مورد."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:135
+msgid "Base cost for resource."
+msgstr "التكلفة الأساسية للمورد."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:128
+msgid "To date for availability range."
+msgstr "\"إلى تاريخ\" في نطاق التوافر."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:122
+msgid "From date for availability range."
+msgstr "\"من تاريخ\" في نطاق التوافر."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:116
+msgid "To time for availability range."
+msgstr "\"إلى وقت\" في نطاق التوافر."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:110
+msgid "From time for availability range."
+msgstr "\"من وقت\" في نطاق التوافر."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:104
+msgid "Priority for how availability rule is applied."
+msgstr "حدِّد الأولوية لكيفية تطبيق قاعدة التوافر."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:98
+msgid "Whether or not the resource is bookable during the time range."
+msgstr "حدِّد ما إذا كان المورد قابلاً للحجز في أثناء النطاق الزمني أم لا."
+
+#: includes/api/class-wc-bookings-rest-resources-controller.php:92
+msgid "Availability date/time range type string."
+msgstr "سلسلة نوع نطاق تاريخ/وقت التوافر."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:496
+msgid "Booking can be cancelled by customer."
+msgstr "يمكن للعميل إلغاء الحجز."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:487
+msgid "Days days of week bookings cannot start. Array of numeric day indexes with 0 being Sunday."
+msgstr "لا يمكن بدء أيام الحجوزات في الأسبوع. مصفوفة بمؤشرات الأيام الرقمية التي يشير فيها 0 إلى يوم الأحد."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:482
+msgid "Booking require confirmation."
+msgstr "يتطلب الحجز تأكيدًا."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:477
+msgid "Max bookings per block."
+msgstr "الحد الأقصى للحجوزات لكل مكوِّن."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:464
+msgid "Base cost."
+msgstr "التكلفة الأساسية."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:458
+msgid "How the base cost should be modified."
+msgstr "كيف ينبغي تعديل التكلفة الأساسية؟"
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:453
+msgid "Block cost."
+msgstr "تكلفة المكوِّن."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:447
+msgid "How the block cost should be modified."
+msgstr "كيف ينبغي تعديل تكلفة المكوِّن؟"
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:422
+msgid "Date range type."
+msgstr "نوع نطاق التاريخ."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:415
+msgid "Pricing rules."
+msgstr "قواعد التسعير."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:410
+msgid "Min persons which can be booked per booking."
+msgstr "الحد الأدنى للأشخاص الذين يمكنهم الحجز لكل حجز."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:405
+msgid "Max persons which can be booked per booking."
+msgstr "الحد الأقصى للأشخاص الذين يمكنهم الحجز لكل حجز."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:400
+msgid "Min duration of units a booking can be."
+msgstr "الحد الأدنى لمدة الوحدات التي يمكن أن يكون الحجز فيها."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:395
+msgid "Max duration of units a booking can be."
+msgstr "الحد الأقصى لمدة الوحدات التي يمكن أن يكون الحجز فيها."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:389
+msgid "Units for min_date_value."
+msgstr "وحدات لـ min_date_value."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:384
+msgid "Min amount af min_date_units into the future a block is bookable."
+msgstr "الحد الأدنى لكمية min_date_units التي يمكن حجز المكوِّن فيها."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:379
+msgid "Min date value combined with min date unit."
+msgstr "الحد الأدنى لقيمة التاريخ التي تم جمعها مع الحد الأدنى لوحدة التاريخ."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:373
+msgid "Units for max_date_value."
+msgstr "وحدات لـ max_date_value."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:368
+msgid "Max amount af max_date_units into the future a block is bookable."
+msgstr "الحد الأقصى لكمية max_date_units التي يمكن حجز المكوِّن فيها."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:363
+msgid "Max date value combined with max date unit."
+msgstr "الحد الأقصى لقيمة التاريخ التي تم جمعها مع الحد الأقصى لوحدة التاريخ."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:358
+msgid "Product has restricted days."
+msgstr "ثمَّة أيام يحظر فيها تداول المنتج."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:353
+msgid "Product has resources defined."
+msgstr "لدى المنتج موارد محدَّدة."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:348
+msgid "Product has persons defined."
+msgstr "لدى المنتج أشخاص محدَّدون."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:343
+msgid "Product has different types of persons."
+msgstr "لدى المنتج أنوع مختلفة من الأشخاص."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:338
+msgid "Each person counts as a booking."
+msgstr "يُعد كل شخص بمثابة حجز."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:333
+msgid "Will multiply cost by number of persons."
+msgstr "سيتم ضرب التكلفة في عدد الأشخاص."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:328
+msgid "Time of day first block starts."
+msgstr "الوقت في اليوم الذي يبدأ فيه أول مكوِّن."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:323
+msgid "Customer can pick a range of days on calendar."
+msgstr "يمكن للعميل اختيار نطاق الأيام على التقويم."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:318
+msgid "Size in duration units of each block."
+msgstr "الحجم بوحدات المدة لكل مكوِّن."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:312
+msgid "Unit duration is defined in."
+msgstr "تم تحديد مدة الوحدة في."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:306
+msgid "How duration is defined."
+msgstr "كيفية تحديد المدة."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:301
+msgid "Product cost displayed."
+msgstr "تم عرض تكلفة المنتج."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:295
+msgid "If 'available' product is bookable unless made unbookable by availability rules."
+msgstr "إذا كان المنتج \"متوافرًا\"، فإنه سيصبح قابلاً للحجز ما لم يكن غير قابل للحجز وفقًا لقواعد التوافر."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:290
+msgid "Product cost."
+msgstr "تكلفة المنتج."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:285
+msgid "If true only the first block in checked for availability."
+msgstr "إذا كان صحيحًا، فسيتم التحقُّق من المكوِّن الأول للتوافر."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:280
+msgid "How many limit units in advance users are allowed to cancel bookings."
+msgstr "ما عدد الوحدات المحدَّدة سابقًا التي يُسمح للمستخدمين فيها بإلغاء الحجوزات."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:274
+msgid "The unit limit is defined in. Valid values are 'month', 'day', 'hour', and 'minute'."
+msgstr "تم تحديد حد الوحدة في. القيم الصالحة هي \"شهر\" و\"ساعة\" و\"ساعة\" و\"دقيقة\"."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:268
+msgid "How the calendar will display on the product page. Valid values are 'always_visible' or ''."
+msgstr "كيف سيظهر التقويم على صفحة المنتج. القيم الصالحة هي \"always_visible\" و \"."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:263
+msgid "Required buffer Period between bookings."
+msgstr "فترة التخزين المطلوبة بين الحجوزات."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:258
+msgid "Base cost of each block."
+msgstr "التكلفة الأساسية لكل مكوِّن."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:250
+#: includes/api/class-wc-bookings-rest-products-controller.php:469
+msgid "Priority of rule."
+msgstr "أولوية القاعدة."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:245
+msgid "Rule marks things as bookable or not, 'yes' or 'no'."
+msgstr "توسم القاعدة الأشياء بأنها \"قابلة للحجز\" أم\" لا\"، \"نعم\" أم \"لا\"."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:240
+#: includes/api/class-wc-bookings-rest-products-controller.php:442
+msgid "Ending day if 'to' is a time."
+msgstr "تاريخ الانتهاء إذا كان \"إلى\" يومًا."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:235
+#: includes/api/class-wc-bookings-rest-products-controller.php:437
+msgid "Starting day if 'from' is a time.,"
+msgstr "تاريخ البدء إذا كان \"من\" وقتًا."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:230
+#: includes/api/class-wc-bookings-rest-products-controller.php:432
+msgid "Ending month/day/week inclusive."
+msgstr "يشمل شهر/يوم/أسبوع الانتهاء."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:225
+#: includes/api/class-wc-bookings-rest-products-controller.php:427
+msgid "Starting month/day/week inclusive."
+msgstr "يشمل شهر/يوم/أسبوع البدء."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:220
+msgid "Availability type."
+msgstr "نوع التوافر."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:213
+msgid "Availability rules defined on product level."
+msgstr "تم تحديد قواعد التوافر على مستوى المنتج."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:208
+msgid "Apply adjacent buffers."
+msgstr "طبِّق المخازن المؤقتة المجاورة."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:160
+msgid "Limit result set to products assigned a specific resource ID."
+msgstr "يمكنك تحديد مجموعة النتائج على المنتجات التي تم تعيين معرِّف مورد معيَّن لها."
+
+#: includes/api/class-wc-bookings-rest-products-controller.php:95
+#: includes/api/class-wc-bookings-rest-products-controller.php:188
+#: includes/api/class-wc-bookings-rest-products-slots-controller.php:133
+msgid "Not a bookable product"
+msgstr "ليس أحد المنتجات القابلة للحجز"
+
+#: includes/api/class-wc-bookings-rest-crud-controller.php:80
+msgid "Whether to bypass trash and force deletion."
+msgstr "ما إذا كان لتجاوز سلة المهملات والحذف الإجباري."
+
+#: includes/api/class-wc-bookings-rest-crud-controller.php:51
+msgid "Unique identifier for the resource."
+msgstr "مُعرّف فريد للمصدر."
+
+#: includes/admin/views/html-settings-page.php:29
+msgid "Sorry, you are not allowed to access this tab."
+msgstr "عذرًا، أنتَ غير مسموح لك بالوصول إلى علامة التبويب هذه."
+
+#. translators: %s: file extension
+#: includes/admin/views/html-notifications-page.php:51
+msgid "Attach %s file"
+msgstr "إرفاق ملف %s"
+
+#: includes/admin/views/html-notifications-page.php:46
+msgid "Attachment"
+msgstr "مرفق"
+
+#: includes/admin/views/html-notifications-page.php:41
+msgid "The following tags can be inserted in your message/subject and will be replaced dynamically"
+msgstr "يمكن إدراج الوسوم الآتية في رسالتك/الموضوع، وسيتم استبدالها ديناميكيًا"
+
+#: includes/admin/views/html-notifications-page.php:40
+msgid "The message you wish to send"
+msgstr "الرسالة التي ترغب في إرسالها"
+
+#: includes/admin/views/html-notifications-page.php:37
+msgid "Message"
+msgstr "رسالة"
+
+#: includes/admin/views/html-notifications-page.php:32
+msgid "Email subject"
+msgstr "موضوع البريد الإلكتروني"
+
+#: includes/admin/views/html-notifications-page.php:29
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:167
+#: includes/emails/class-wc-email-booking-cancelled.php:162
+#: includes/emails/class-wc-email-booking-confirmed.php:160
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:154
+#: includes/emails/class-wc-email-booking-reminder.php:146
+#: includes/emails/class-wc-email-new-booking.php:207
+msgid "Subject"
+msgstr "عنوان الرسالة"
+
+#: includes/admin/views/html-notifications-page.php:20
+msgid "Select a booking product..."
+msgstr "تحديد منتج الحجز..."
+
+#: includes/admin/views/html-notifications-page.php:16
+msgid "Booking Product"
+msgstr "منتج الحجز"
+
+#. translators: 1: starting strong tag 2: closing strong tag 3: starting a href
+#. tag 4: closing a href tag
+#: includes/admin/views/html-notifications-page.php:7
+msgid "You may send an email notification to all customers who have a %1$sfuture%2$s booking for a particular product. This will use the default template specified under %3$sWooCommerce > Settings > Emails%4$s."
+msgstr "يمكنك إرسال تنبيه عبر رسائل البريد الإلكتروني إلى جميع العملاء الذين لديهم حجز ⁦%1$s⁩مستقبلي⁦%2$s⁩ لمنتج معيَّن. سيستخدم هذا القالب الافتراضي المحدَّد أسفل ⁦%3$s⁩WooCommerce > الإعدادات > رسائل البريد الإلكتروني⁦%4$s⁩."
+
+#: includes/admin/views/html-create-booking-page.php:76
+#: includes/booking-form/class-wc-booking-form.php:37
+#: templates/myaccount/bookings.php:95
+msgid "Next"
+msgstr "التالي"
+
+#: includes/admin/views/html-create-booking-page.php:67
+msgid "Don't create an order for this booking."
+msgstr "تجنب إنشاء طلب لهذا الحجز."
+
+#: includes/admin/views/html-create-booking-page.php:56
+msgid "Assign this booking to an existing order with this ID:"
+msgstr "تعيين هذا الحجز إلى طلب موجود يحمل هذا المعرِّف:"
+
+#: includes/admin/views/html-create-booking-page.php:50
+msgid "Create a new corresponding order for this new booking. Please note - the booking will not be active until the order is processed/completed."
+msgstr "أنشئ طلبًا مقابلاً جديدًا لهذا الحجز الجديد. يرجى ملاحظة أنَّ الحجز لن يكون نشطًا حتى معالجة/اكتمال الطلب."
+
+#: includes/admin/views/html-create-booking-page.php:44
+msgid "Create Order"
+msgstr "إنشاء طلب"
+
+#: includes/admin/views/html-create-booking-page.php:35
+msgid "Select a bookable product..."
+msgstr "تحديد منتج قابل للحجز..."
+
+#: includes/admin/views/html-create-booking-page.php:31
+msgid "Bookable Product"
+msgstr "منتج قابل للحجز"
+
+#: includes/admin/views/html-create-booking-page.php:9
+msgid "You can create a new booking for a customer here. This form will create a booking for the user, and optionally an associated order. Created orders will be marked as pending payment."
+msgstr "يمكنك إنشاء حجز جديد لأحد العملاء هنا. سينشئ هذا النموذج حجزًا للمستخدم، وطلبًا مرتبطًا اختياريًا. سيتم وسم الطلبات التي تم إنشاؤها كدفع معلَّق."
+
+#: includes/admin/views/html-create-booking-page-2.php:16
+msgid "Booking Data"
+msgstr "بيانات الحجز"
+
+#: includes/admin/views/html-classic-availability-settings.php:190
+#: includes/class-wc-bookings-google-calendar-connection.php:329
+#: includes/class-wc-bookings-timezone-settings.php:213
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: includes/admin/views/html-classic-availability-settings.php:188
+msgid "Past availability are hidden from this list."
+msgstr "تم إخفاء التوافر السابق من هذه القائمة."
+
+#: includes/admin/views/html-classic-availability-settings.php:149
+msgid "Title"
+msgstr "العنوان"
+
+#: includes/admin/views/html-classic-availability-settings.php:131
+#: includes/admin/views/html-store-availability-settings.php:70
+msgid "This section will set the availability of your store (ie Open and closed hours). All bookable products will adopt your store's availability."
+msgstr "سيقوم هذا القسم بتعيين توافر مخزنك (على سبيل المثال، ساعات الفتح والغلق). ستعتمد جميع المنتجات القابلة للحجز على توافر مخزنك."
+
+#: includes/admin/views/html-classic-availability-settings.php:119
+#: includes/class-wc-bookings-timezone-settings.php:82
+msgid "Settings saved"
+msgstr "تم حفظ الإعدادات"
+
+#. translators: %s: Additional note added to a booking.
+#: includes/admin/views/html-calendar-schedule.php:65
+msgid "Note: %s"
+msgstr "ملاحظة: %s"
+
+#: includes/admin/views/html-calendar-schedule.php:43
+msgid "Resources: "
+msgstr "موارد:"
+
+#: includes/admin/views/html-calendar-nav.php:158
+#: templates/booking-form/date-picker.php:50
+#: templates/booking-form/date-picker.php:55
+#: templates/booking-form/date-picker.php:75
+#: templates/booking-form/date-picker.php:80
+#: templates/booking-form/datetime-picker.php:49
+#: templates/booking-form/datetime-picker.php:54
+msgid "Day"
+msgstr "يوم"
+
+#: includes/admin/views/html-calendar-nav.php:155
+#: includes/booking-form/class-wc-booking-form-month-picker.php:28
+#: templates/booking-form/date-picker.php:47
+#: templates/booking-form/date-picker.php:58
+#: templates/booking-form/date-picker.php:72
+#: templates/booking-form/date-picker.php:83
+#: templates/booking-form/datetime-picker.php:46
+#: templates/booking-form/datetime-picker.php:57
+msgid "Month"
+msgstr "شهر"
+
+#: includes/admin/views/html-calendar-nav.php:152
+#: includes/admin/views/html-calendar-schedule.php:2
+msgid "Schedule"
+msgstr "جدولة"
+
+#: includes/admin/views/html-calendar-nav.php:100
+#: includes/admin/views/html-calendar-nav.php:140
+#: includes/booking-form/class-wc-booking-form.php:35
+msgid "Today"
+msgstr "اليوم"
+
+#: includes/admin/views/html-calendar-nav.php:32
+msgid "All Resources"
+msgstr "جميع الموارد"
+
+#: includes/admin/views/html-calendar-nav.php:14
+msgid "All Products"
+msgstr "جميع المنتجات"
+
+#: includes/admin/views/html-calendar-nav.php:11
+msgid "Filter By"
+msgstr "التصفية حسب"
+
+#: includes/admin/views/html-calendar-month.php:43
+#: includes/admin/views/html-store-availability-settings.php:105
+msgctxt "date format"
+msgid "D"
+msgstr "D"
+
+#: includes/admin/views/html-booking-resources.php:83
+msgid "Manage Resources"
+msgstr "إدارة الموارد"
+
+#: includes/admin/views/html-booking-resources.php:71
+msgid "New resource"
+msgstr "مورد جديد"
+
+#: includes/admin/views/html-booking-resources.php:69
+msgid "Add/link Resource"
+msgstr "إضافة/ربط مورد"
+
+#: includes/admin/views/html-booking-resources.php:43
+msgid "Resources are used if you have multiple bookable items, e.g. room types, instructors or ticket types. Availability for resources is global across all bookable products."
+msgstr "تُستخدم الموارد إذا كانت لديك عدة عناصر قابلة للحجز، على سبيل المثال أنواع الغرف أو المدربين أو أنواع البطاقات. إنَّ توافر الموارد شأن عالمي عبر جميع المنتجات القابلة للحجز."
+
+#: includes/admin/views/html-booking-resources.php:27
+msgid "Customer selected resources allow customers to choose one from the booking form."
+msgstr "تسمح الموارد التي حدَّدها العميل للعملاء باختيار واحد من نموذج الحجز."
+
+#: includes/admin/views/html-booking-resources.php:25
+msgid "Automatically assigned"
+msgstr "تم التعيين تلقائيًا"
+
+#: includes/admin/views/html-booking-resources.php:24
+msgid "Customer selected"
+msgstr "تم تحديد العميل"
+
+#: includes/admin/views/html-booking-resources.php:19
+msgid "Resources are..."
+msgstr "الموارد هي..."
+
+#: includes/admin/views/html-booking-resources.php:12
+msgid "The label shown on the frontend if the resource is customer defined."
+msgstr "التسمية التي تظهر على الواجهة الأمامية إذا حدَّد العميل المورد."
+
+#: includes/admin/views/html-booking-resources.php:9
+msgid "Label"
+msgstr "التسمية"
+
+#: includes/admin/views/html-booking-resources.php:8
+#: includes/booking-form/class-wc-booking-form.php:325
+#: includes/wc-bookings-functions.php:858
+#: templates/emails/plain/admin-booking-display.php:51
+#: templates/emails/plain/customer-booking-display.php:50
+msgid "Type"
+msgstr "النوع"
+
+#: includes/admin/views/html-booking-resource.php:10
+msgid "Edit resource"
+msgstr "تحرير المورد"
+
+#: includes/admin/views/html-booking-resource.php:8
+msgid "Remove"
+msgstr "إزالة"
+
+#: includes/admin/views/html-booking-pricing.php:79
+msgid "All matching rules will be applied to the booking."
+msgstr "سيتم تطبيق جميع القواعد المتطابقة على الحجز."
+
+#: includes/admin/views/html-booking-pricing.php:66
+msgid "Enter a cost for this rule. Applied to each booking block."
+msgstr "أدخل تكلفة لهذه القاعدة. تم التطبيق على كل مكوِّن من مكوِّنات الحجز."
+
+#: includes/admin/views/html-booking-pricing.php:65
+msgid "Enter a cost for this rule. Applied to the booking as a whole."
+msgstr "أدخل تكلفة لهذه القاعدة. تم التطبيق على الحجز ككل."
+
+#: includes/admin/views/html-booking-pricing.php:42
+msgid "The cost is displayed to the user on the frontend. Leave blank to have it calculated for you. If a booking has varying costs, this will be prefixed with the word \"from:\"."
+msgstr "تظهر التكلفة أمام المستخدم على الواجهة الأمامية. اترك فراغًا ليتم حساب التكلفة لك. إذا كان للحجز تكاليف متفاوتة، فسيكون مسبوقًا بالكلمة \"من\":"
+
+#: includes/admin/views/html-booking-pricing.php:41
+msgid "Display cost"
+msgstr "عرض التكلفة"
+
+#: includes/admin/views/html-booking-pricing.php:25
+msgid "This is the cost per block booked. All other costs (for resources and persons) are added to this."
+msgstr "هذه هي التكلفة لكل مكوِّن تم حجزه. تضاف جميع التكاليف الأخرى (للموردين والأشخاص) إلى هذه."
+
+#: includes/admin/views/html-booking-pricing.php:24
+#: includes/admin/views/html-booking-pricing.php:66
+msgid "Block cost"
+msgstr "تكلفة المكوِّن"
+
+#: includes/admin/views/html-booking-pricing.php:8
+msgid "One-off cost for the booking as a whole."
+msgstr "التكلفة لمرة واحدة للحجز ككل."
+
+#: includes/admin/views/html-booking-pricing.php:7
+#: includes/admin/views/html-booking-pricing.php:65
+msgid "Base cost"
+msgstr "التكلفة الأساسية"
+
+#: includes/admin/views/html-booking-pricing-fields.php:69
+msgid "Date Range with time"
+msgstr "نطاق التاريخ مع الوقت"
+
+#: includes/admin/views/html-booking-pricing-fields.php:66
+msgid "Block count"
+msgstr "عدد المكوِّنات"
+
+#: includes/admin/views/html-booking-pricing-fields.php:65
+msgid "Person count"
+msgstr "عدد الأشخاص"
+
+#: includes/admin/views/html-booking-pricing-fields.php:64
+msgid "Time Range"
+msgstr "نطاق الوقت"
+
+#: includes/admin/views/html-booking-persons.php:108
+msgid "Add Person Type"
+msgstr "إضافة نوع الشخص"
+
+#: includes/admin/views/html-booking-persons.php:80
+#: includes/admin/views/html-booking-resources.php:37
+msgid "Expand all"
+msgstr "توسعة الكل"
+
+#: includes/admin/views/html-booking-persons.php:80
+#: includes/admin/views/html-booking-resources.php:37
+msgid "Close all"
+msgstr "إغلاق الكل"
+
+#: includes/admin/views/html-booking-persons.php:79
+msgid "Person types"
+msgstr "أنواع الأشخاص"
+
+#: includes/admin/views/html-booking-persons.php:68
+#: includes/admin/views/html-booking-persons.php:91
+msgid "Person types allow you to offer different booking costs for different types of individuals, for example, adults and children."
+msgstr "تسمح لك أنواع الأشخاص بعرض مختلف تكاليف الحجز لأنواع مختلفة من الأفراد، كالبالغين والأطفال مثلاً."
+
+#: includes/admin/views/html-booking-persons.php:67
+msgid "Enable person types"
+msgstr "تمكين أنواع الأشخاص"
+
+#: includes/admin/views/html-booking-persons.php:56
+msgid "Enable this to count each person as a booking until the max bookings per block (in availability) is reached."
+msgstr "يمكنك تمكين هذا لإحصاء كل شخص كحجز إلى أن يتم الوصول إلى الحد الأقصى للحجوزات لكل مكوِّن (في التوافر)."
+
+#: includes/admin/views/html-booking-persons.php:55
+msgid "Count persons as bookings"
+msgstr "إحصاء الأشخاص كحجوزات"
+
+#: includes/admin/views/html-booking-persons.php:44
+msgid "Enable this to multiply the entire cost of the booking (block and base costs) by the person count."
+msgstr "يمكنك تمكين هذا لضرب تكلفة الحجز الكلية (تكلفة المكوِّن والتكلفة الأساسية) في عدد الأشخاص."
+
+#: includes/admin/views/html-booking-persons.php:43
+msgid "Multiply all costs by person count"
+msgstr "ضرب جميع التكاليف في عدد الأشخاص"
+
+#: includes/admin/views/html-booking-persons.php:27
+msgid "The maximum number of persons per booking."
+msgstr "الحد الأقصى لعدد الأشخاص لكل حجز."
+
+#: includes/admin/views/html-booking-persons.php:26
+msgid "Max persons"
+msgstr "الحد الأقصى للأشخاص"
+
+#: includes/admin/views/html-booking-persons.php:10
+msgid "The minimum number of persons per booking."
+msgstr "الحد الأدنى لعدد الأشخاص لكل حجز. "
+
+#: includes/admin/views/html-booking-persons.php:9
+msgid "Min persons"
+msgstr "الحد الأدنى للأشخاص"
+
+#: includes/admin/views/html-booking-person.php:48
+msgid "Max"
+msgstr "الحد الأقصى"
+
+#: includes/admin/views/html-booking-person.php:44
+msgid "Min"
+msgstr "الحد الأدنى"
+
+#: includes/admin/views/html-booking-person.php:40
+msgid "Description"
+msgstr "الوصف"
+
+#: includes/admin/views/html-booking-person.php:30
+#: includes/admin/views/html-booking-resource.php:33
+msgid "Block Cost"
+msgstr "تكلفة المكوِّن"
+
+#: includes/admin/views/html-booking-person.php:24
+#: includes/admin/views/html-booking-resource.php:24
+msgid "Base Cost"
+msgstr "التكلفة الأساسية"
+
+#: includes/admin/views/html-booking-person.php:20
+msgid "Person Type Name"
+msgstr "اسم نوع الشخص"
+
+#: includes/admin/views/html-booking-person.php:9
+#: includes/admin/views/html-booking-resource.php:12
+msgid "Click to toggle"
+msgstr "أضغط للتبديل"
+
+#: includes/admin/views/html-booking-person.php:8
+msgid "Unlink"
+msgstr "إزالة الرابط"
+
+#: includes/admin/views/html-booking-data.php:108
+msgid "before the start date."
+msgstr "قبل تاريخ البدء."
+
+#: includes/admin/views/html-booking-data.php:100
+msgid "Booking can be cancelled until"
+msgstr "يمكن إلغاء الحجز حتى"
+
+#: includes/admin/views/html-booking-data.php:93
+msgid "Check this box if the booking can be cancelled by the customer after it has been purchased. A refund will not be sent automatically."
+msgstr "حدِّد هذا المربع إذا كان بإمكان العميل إلغاء الحجز بعد شرائه. لن يتم إرسال المبلغ المسترد تلقائيًا."
+
+#: includes/admin/views/html-booking-data.php:92
+msgid "Can be cancelled?"
+msgstr "هل يمكن الإلغاء؟"
+
+#: includes/admin/views/html-booking-data.php:86
+msgid "Check this box if the booking requires admin approval/confirmation. Payment will not be taken during checkout."
+msgstr "حدِّد هذا المربع إذا كان الحجز يتطلب موافقة/تأكيد المسؤول. لن يتم الدفع في أثناء السداد."
+
+#: includes/admin/views/html-booking-data.php:85
+msgid "Requires confirmation?"
+msgstr "هل يتطلب تأكيدًا؟"
+
+#: includes/admin/views/html-booking-data.php:76
+msgid "Calendar always visible"
+msgstr "التقويم مرئي دومًا"
+
+#: includes/admin/views/html-booking-data.php:75
+msgid "Display calendar on click"
+msgstr "عرض التقويم عند النقر"
+
+#: includes/admin/views/html-booking-data.php:73
+msgid "Choose how the calendar is displayed on the booking form."
+msgstr "اختر كيفية عرض التقويم على نموذج الحجز."
+
+#: includes/admin/views/html-booking-data.php:72
+msgid "Calendar display mode"
+msgstr "وضع عرض التقويم"
+
+#: includes/admin/views/html-booking-data.php:62
+msgid "Lets the user select a start and end date on the calendar - duration will be calculated automatically."
+msgstr "يتيح للمستخدم تحديد تاريخ البدء والانتهاء على التقويم - سيتم حساب المدة تلقائيًا."
+
+#: includes/admin/views/html-booking-data.php:61
+msgid "Enable Calendar Range Picker?"
+msgstr "هل تريد تمكين منتقي نطاق التقويم؟"
+
+#: includes/admin/views/html-booking-data.php:46
+msgid "The maximum allowed duration the user can input."
+msgstr "الحد الأقصى للمدة المسموح بها التي يمكن للمستخدم إدخالها."
+
+#: includes/admin/views/html-booking-data.php:45
+msgid "Maximum duration"
+msgstr "الحد الأقصى للمدة"
+
+#: includes/admin/views/html-booking-data.php:33
+msgid "The minimum allowed duration the user can input."
+msgstr "الحد الأدنى للمدة المسموح بها التي يمكن للمستخدم إدخالها."
+
+#: includes/admin/views/html-booking-data.php:32
+msgid "Minimum duration"
+msgstr "الحد الأدنى للمدة"
+
+#: includes/admin/views/html-booking-data.php:23
+#: includes/admin/views/html-booking-data.php:106
+#: includes/booking-form/class-wc-booking-form.php:204
+msgid "Minute(s)"
+msgstr "دقيقة (دقائق)"
+
+#: includes/admin/views/html-booking-data.php:16
+msgid "Customer defined blocks of"
+msgstr "المكوِّنات التي حدَّدها العميل لـ"
+
+#: includes/admin/views/html-booking-data.php:15
+msgid "Fixed blocks of"
+msgstr "المكوِّنات التي تم إصلاحها لـ"
+
+#: includes/admin/views/html-booking-data.php:13
+msgid "Booking duration"
+msgstr "مدة الحجز"
+
+#: includes/admin/views/html-booking-availability.php:105
+msgid "Restrict the days of the week that are able to be selected on the calendar; this will not affect your availability. For more information on restricting start and end days you can"
+msgstr "يمكنك حصر أيام الأسبوع التي يمكن تحديدها على التقويم؛ لن يؤثر هذا الأمر في توافرك. للحصول على مزيد من المعلومات حول حصر أيام البدء والانتهاء، يمكنك"
+
+#: includes/admin/views/html-booking-availability.php:104
+msgid "Restrict selectable days?"
+msgstr "هل تريد حصر الأيام القابلة للتحديد؟"
+
+#: includes/admin/views/html-booking-availability.php:99
+msgid "view our documentation here."
+msgstr "اعرض وثائقنا هنا."
+
+#: includes/admin/views/html-booking-availability.php:94
+msgid "First block starts at..."
+msgstr "يبدأ المكوِّن الأول في..."
+
+#: includes/admin/views/html-booking-availability.php:89
+msgid "This option affects how bookings are checked for availability."
+msgstr "يؤثر هذا الخيار في كيفية التحقُّق من الحجوزات للتوافر. "
+
+#: includes/admin/views/html-booking-availability.php:87
+msgid "The starting block only"
+msgstr "مكوِّن البدء فقط"
+
+#: includes/admin/views/html-booking-availability.php:86
+msgid "All blocks being booked"
+msgstr "جميع المكوِّنات التي تم حجزها"
+
+#: includes/admin/views/html-booking-availability.php:82
+msgid "Check rules against..."
+msgstr "التحقُّق من القواعد ضد..."
+
+#: includes/admin/views/html-booking-availability.php:75
+msgid "This option affects how you use the rules below."
+msgstr "يؤثر هذا الخيار في كيفية استخدام القواعد أدناه."
+
+#: includes/admin/views/html-booking-availability.php:73
+msgid "not-available by default"
+msgstr "غير متوافر افتراضيًا"
+
+#: includes/admin/views/html-booking-availability.php:72
+msgid "available by default"
+msgstr "متوافر افتراضيًا"
+
+#: includes/admin/views/html-booking-availability.php:68
+msgid "All dates are..."
+msgstr "جميع التواريخ هي..."
+
+#: includes/admin/views/html-booking-availability.php:61
+msgid "By default buffer period applies forward into the future of a booking. Enabling this option will apply adjacently (before and after Bookings)."
+msgstr "بشكل افتراضي، ستنطبق فترة التخزين المؤقت على الحجوزات للتقدُّم صوب المستقبل. سيؤدي تمكين هذا الخيار إلى تطبيقه بشكل محاذٍ (قبل الحجوزات وبعدها)."
+
+#: includes/admin/views/html-booking-availability.php:60
+msgid "Adjacent Buffering?"
+msgstr "هل ترغب في التخزين المؤقت المحاذي؟"
+
+#: includes/admin/views/html-booking-availability.php:52
+msgid "between bookings"
+msgstr "بين الحجوزات"
+
+#: includes/admin/views/html-booking-availability.php:49
+msgid "Require a buffer period of"
+msgstr "تتطلب فترة التخزين المؤقت لـ"
+
+#: includes/admin/views/html-booking-availability.php:39
+msgid "Maximum block bookable"
+msgstr "الحد الأقصى للمكوِّن القابل للتخزين"
+
+#: includes/admin/views/html-booking-availability.php:36
+#: includes/admin/views/html-booking-availability.php:46
+msgid "into the future"
+msgstr "في المستقبل"
+
+#: includes/admin/views/html-booking-availability.php:35
+#: includes/admin/views/html-booking-availability.php:45
+#: includes/admin/views/html-booking-data.php:22
+#: includes/admin/views/html-booking-data.php:105
+#: includes/booking-form/class-wc-booking-form.php:196
+msgid "Hour(s)"
+msgstr "ساعة (ساعات)"
+
+#: includes/admin/views/html-booking-availability.php:34
+#: includes/admin/views/html-booking-availability.php:44
+#: includes/admin/views/html-booking-data.php:21
+#: includes/admin/views/html-booking-data.php:104
+#: includes/booking-form/class-wc-booking-form.php:172
+msgid "Day(s)"
+msgstr "يوم (أيام)"
+
+#: includes/admin/views/html-booking-availability.php:33
+#: includes/admin/views/html-booking-availability.php:43
+#: includes/booking-form/class-wc-booking-form.php:163
+#: includes/booking-form/class-wc-booking-form.php:176
+msgid "Week(s)"
+msgstr "أسبوع (أسابيع)"
+
+#: includes/admin/views/html-booking-availability.php:32
+#: includes/admin/views/html-booking-availability.php:42
+#: includes/admin/views/html-booking-data.php:20
+#: includes/admin/views/html-booking-data.php:103
+#: includes/booking-form/class-wc-booking-form.php:155
+msgid "Month(s)"
+msgstr "شهر (أشهر)"
+
+#: includes/admin/views/html-booking-availability.php:29
+msgid "Minimum block bookable"
+msgstr "الحد الأدنى للمكوِّن القابل للحجز"
+
+#: includes/admin/views/html-booking-availability.php:17
+msgid "The maximum bookings allowed for each block. Can be overridden at resource level."
+msgstr "الحد الأقصى للحجوزات المسموح بها لكل مكوِّن. يمكن تجاوزها على مستوى المورد."
+
+#: includes/admin/views/html-booking-availability.php:16
+msgid "Max bookings per block"
+msgstr "الحد الأقصى للحجوزات لكل مكوِّن"
+
+#: includes/admin/views/html-booking-availability-fields.php:312
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/admin/views/html-booking-availability-fields.php:305
+#: includes/admin/views/html-booking-availability-fields.php:310
+msgid "No"
+msgstr "لا"
+
+#: includes/admin/views/html-booking-availability-fields.php:153
+msgid "Invalid recurring rule"
+msgstr "قاعدة متكررة غير صالحة"
+
+#: includes/admin/views/html-booking-availability-fields.php:138
+msgid ", except "
+msgstr "، باستثناء"
+
+#: includes/admin/views/html-booking-availability-fields.php:133
+msgid "Repeating "
+msgstr "تكرار"
+
+#: includes/admin/views/html-booking-availability-fields.php:128
+#: includes/admin/views/html-booking-availability-fields.php:227
+#: includes/admin/views/html-booking-availability-fields.php:228
+#: includes/admin/views/html-booking-pricing-fields.php:130
+#: includes/admin/views/html-booking-pricing-fields.php:131
+msgid "to"
+msgstr "إلى"
+
+#: includes/admin/views/html-booking-availability-fields.php:92
+msgid "Date Range with recurring time"
+msgstr "نطاق التاريخ مع الوقت المتكرر "
+
+#: includes/admin/views/html-booking-availability-fields.php:91
+#: includes/admin/views/html-booking-pricing-fields.php:68
+msgid "Time Range (all week)"
+msgstr "نطاق الوقت (طوال الأسبوع)"
+
+#: includes/admin/views/html-booking-availability-fields.php:90
+#: includes/admin/views/html-booking-pricing-fields.php:67
+msgid "Time Ranges"
+msgstr "نطاقات الأوقات"
+
+#: includes/admin/views/html-booking-availability-fields.php:89
+#: includes/admin/views/html-booking-pricing-fields.php:63
+msgid "Range of days"
+msgstr "نطاق الأيام"
+
+#: includes/admin/views/html-booking-availability-fields.php:88
+#: includes/admin/views/html-booking-pricing-fields.php:62
+msgid "Range of weeks"
+msgstr "نطاق الأسابيع"
+
+#: includes/admin/views/html-booking-availability-fields.php:87
+#: includes/admin/views/html-booking-pricing-fields.php:61
+msgid "Range of months"
+msgstr "نطاق الأشهر"
+
+#: includes/admin/views/html-booking-availability-fields.php:86
+msgid "Date range with time"
+msgstr "نطاق التاريخ مع الوقت"
+
+#: includes/admin/views/html-booking-availability-fields.php:85
+#: includes/admin/views/html-booking-pricing-fields.php:60
+msgid "Date range"
+msgstr "نطاق التاريخ"
+
+#: includes/admin/views/html-booking-availability-fields.php:70
+msgid "Google Event"
+msgstr "حدث غوغل"
+
+#: includes/admin/views/html-booking-availability-fields.php:68
+msgid "Google Recurring Event"
+msgstr "حدث غوغل المتكرر"
+
+#. translators: 1: week number
+#: includes/admin/views/html-booking-availability-fields.php:37
+#: includes/admin/views/html-booking-pricing-fields.php:35
+msgid "Week %s"
+msgstr "أسبوع %s"
+
+#: includes/admin/views/html-booking-availability-fields.php:33
+#: includes/admin/views/html-booking-availability.php:118
+#: includes/admin/views/html-booking-pricing-fields.php:30
+msgid "Sunday"
+msgstr "الأحد"
+
+#: includes/admin/views/html-booking-availability-fields.php:32
+#: includes/admin/views/html-booking-availability.php:124
+#: includes/admin/views/html-booking-pricing-fields.php:29
+msgid "Saturday"
+msgstr "السبت"
+
+#: includes/admin/views/html-booking-availability-fields.php:31
+#: includes/admin/views/html-booking-availability.php:123
+#: includes/admin/views/html-booking-pricing-fields.php:28
+msgid "Friday"
+msgstr "الجمعة"
+
+#: includes/admin/views/html-booking-availability-fields.php:30
+#: includes/admin/views/html-booking-availability.php:122
+#: includes/admin/views/html-booking-pricing-fields.php:27
+msgid "Thursday"
+msgstr "الخميس"
+
+#: includes/admin/views/html-booking-availability-fields.php:29
+#: includes/admin/views/html-booking-availability.php:121
+#: includes/admin/views/html-booking-pricing-fields.php:26
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: includes/admin/views/html-booking-availability-fields.php:28
+#: includes/admin/views/html-booking-availability.php:120
+#: includes/admin/views/html-booking-pricing-fields.php:25
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: includes/admin/views/html-booking-availability-fields.php:27
+#: includes/admin/views/html-booking-availability.php:119
+#: includes/admin/views/html-booking-pricing-fields.php:24
+msgid "Monday"
+msgstr "الاثنين"
+
+#: includes/admin/views/html-booking-availability-fields.php:23
+#: includes/admin/views/html-booking-pricing-fields.php:20
+msgid "December"
+msgstr "ديسمبر"
+
+#: includes/admin/views/html-booking-availability-fields.php:22
+#: includes/admin/views/html-booking-pricing-fields.php:19
+msgid "November"
+msgstr "نوفمبر"
+
+#: includes/admin/views/html-booking-availability-fields.php:21
+#: includes/admin/views/html-booking-pricing-fields.php:18
+msgid "October"
+msgstr "أكتوبر"
+
+#: includes/admin/views/html-booking-availability-fields.php:20
+#: includes/admin/views/html-booking-pricing-fields.php:17
+msgid "September"
+msgstr "سبتمبر"
+
+#: includes/admin/views/html-booking-availability-fields.php:19
+#: includes/admin/views/html-booking-pricing-fields.php:16
+msgid "August"
+msgstr "أغسطس"
+
+#: includes/admin/views/html-booking-availability-fields.php:18
+#: includes/admin/views/html-booking-pricing-fields.php:15
+msgid "July"
+msgstr "يوليو"
+
+#: includes/admin/views/html-booking-availability-fields.php:17
+#: includes/admin/views/html-booking-pricing-fields.php:14
+msgid "June"
+msgstr "يونيو"
+
+#: includes/admin/views/html-booking-availability-fields.php:16
+#: includes/admin/views/html-booking-pricing-fields.php:13
+msgid "May"
+msgstr "مايو"
+
+#: includes/admin/views/html-booking-availability-fields.php:15
+#: includes/admin/views/html-booking-pricing-fields.php:12
+msgid "April"
+msgstr "أبريل"
+
+#: includes/admin/views/html-booking-availability-fields.php:14
+#: includes/admin/views/html-booking-pricing-fields.php:11
+msgid "March"
+msgstr "مارس"
+
+#: includes/admin/views/html-booking-availability-fields.php:13
+#: includes/admin/views/html-booking-pricing-fields.php:10
+msgid "February"
+msgstr "فبراير"
+
+#: includes/admin/views/html-booking-availability-fields.php:12
+#: includes/admin/views/html-booking-pricing-fields.php:9
+msgid "January"
+msgstr "يناير"
+
+#: includes/admin/views/html-availability-views-nav.php:15
+msgid "Classic Mode"
+msgstr "الوضع التقليدي"
+
+#: includes/admin/views/html-availability-views-nav.php:9
+msgid "Calendar Mode"
+msgstr "وضع التقويم"
+
+#. translators: %s: Number of posts that have expired
+#: includes/admin/class-wc-bookings-tools.php:93
+msgid "Removed %s expired In Cart booking(s)."
+msgstr "تمت إزالة %s من الحجوزات التي انتهت صلاحيتها في عربة التسوق. "
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:62
+msgid "Save/update the booking"
+msgstr "حفظ/تحديث الحجز"
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:62
+msgid "Save Booking"
+msgstr "حفظ الحجز"
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:60
+msgid "Move to trash"
+msgstr "نقل إلى سلة المهملات"
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:47
+msgid "Booking actions"
+msgstr "إجراءات الحجز"
+
+#. translators: 0: number of bookings that require confirmation, 1: number of
+#. bookings that require confirmation
+#: includes/admin/class-wc-bookings-report-dashboard.php:55
+msgid "<strong>%s booking(s)</strong> require confirmation"
+msgid_plural "<strong>%s booking(s)</strong> require confirmation"
+msgstr[0] "تتطلب <strong>%s من الحجوزات</strong>  تأكيدًا"
+msgstr[1] "تتطلب <strong>%s من الحجوزات</strong>  تأكيدًا"
+msgstr[2] "تتطلب <strong>%s من الحجوزات</strong>  تأكيدًا"
+msgstr[3] "تتطلب <strong>%s من الحجوزات</strong>  تأكيدًا"
+msgstr[4] "تتطلب <strong>%s من الحجوزات</strong>  تأكيدًا"
+msgstr[5] "تتطلب <strong>%s من الحجوزات</strong>  تأكيدًا"
+
+#. translators: 0: number of bookings, 1: number of bookings
+#: includes/admin/class-wc-bookings-report-dashboard.php:47
+msgid "<strong>%s booking(s)</strong> new bookings this month"
+msgid_plural "<strong>%s booking(s)</strong> new bookings this month"
+msgstr[0] "<strong>%s من الحجوزات</strong> ضمن الحجوزات الجديدة في هذا الشهر"
+msgstr[1] "<strong>%s من الحجوزات</strong> ضمن الحجوزات الجديدة في هذا الشهر"
+msgstr[2] "<strong>%s من الحجوزات</strong> ضمن الحجوزات الجديدة في هذا الشهر"
+msgstr[3] "<strong>%s من الحجوزات</strong> ضمن الحجوزات الجديدة في هذا الشهر"
+msgstr[4] "<strong>%s من الحجوزات</strong> ضمن الحجوزات الجديدة في هذا الشهر"
+msgstr[5] "<strong>%s من الحجوزات</strong> ضمن الحجوزات الجديدة في هذا الشهر"
+
+#: includes/admin/class-wc-bookings-products-export.php:71
+#: includes/admin/class-wc-bookings-products-import.php:72
+msgid "User_can_cancel"
+msgstr "User_can_cancel"
+
+#: includes/admin/class-wc-bookings-products-export.php:70
+#: includes/admin/class-wc-bookings-products-import.php:71
+msgid "Restricted_days"
+msgstr "Restricted_days"
+
+#: includes/admin/class-wc-bookings-products-export.php:69
+#: includes/admin/class-wc-bookings-products-import.php:70
+msgid "Resources_assignment"
+msgstr "Resources_assignment"
+
+#: includes/admin/class-wc-bookings-products-export.php:68
+#: includes/admin/class-wc-bookings-products-import.php:69
+msgid "Resource_ids"
+msgstr "Resource_ids"
+
+#: includes/admin/class-wc-bookings-products-export.php:67
+#: includes/admin/class-wc-bookings-products-import.php:68
+msgid "Resource_block_costs"
+msgstr "Resource_block_costs"
+
+#: includes/admin/class-wc-bookings-products-export.php:66
+#: includes/admin/class-wc-bookings-products-import.php:67
+msgid "Resource_base_costs"
+msgstr "Resource_base_costs"
+
+#: includes/admin/class-wc-bookings-products-export.php:65
+#: includes/admin/class-wc-bookings-products-import.php:66
+msgid "Resource_label"
+msgstr "Resource_label"
+
+#: includes/admin/class-wc-bookings-products-export.php:64
+#: includes/admin/class-wc-bookings-products-import.php:65
+msgid "Requires_confirmation"
+msgstr "Requires_confirmation"
+
+#: includes/admin/class-wc-bookings-products-export.php:63
+#: includes/admin/class-wc-bookings-products-import.php:64
+msgid "Qty"
+msgstr "الكمية"
+
+#: includes/admin/class-wc-bookings-products-export.php:62
+#: includes/admin/class-wc-bookings-products-import.php:63
+msgid "Pricing"
+msgstr "التسعير"
+
+#: includes/admin/class-wc-bookings-products-export.php:61
+#: includes/admin/class-wc-bookings-products-import.php:62
+msgid "Person_types"
+msgstr "Person_types"
+
+#: includes/admin/class-wc-bookings-products-export.php:60
+#: includes/admin/class-wc-bookings-products-import.php:61
+msgid "Min_persons"
+msgstr "Min_persons"
+
+#: includes/admin/class-wc-bookings-products-export.php:59
+#: includes/admin/class-wc-bookings-products-import.php:60
+msgid "Min_duration"
+msgstr "Min_duration"
+
+#: includes/admin/class-wc-bookings-products-export.php:58
+#: includes/admin/class-wc-bookings-products-import.php:59
+msgid "Min_date_value"
+msgstr "Min_date_value"
+
+#: includes/admin/class-wc-bookings-products-export.php:57
+#: includes/admin/class-wc-bookings-products-import.php:58
+msgid "Min_date_unit"
+msgstr "Min_date_unit"
+
+#: includes/admin/class-wc-bookings-products-export.php:56
+#: includes/admin/class-wc-bookings-products-import.php:57
+msgid "Max_persons"
+msgstr "Max_persons"
+
+#: includes/admin/class-wc-bookings-products-export.php:55
+#: includes/admin/class-wc-bookings-products-import.php:56
+msgid "Max_duration"
+msgstr "Max_duration"
+
+#: includes/admin/class-wc-bookings-products-export.php:54
+#: includes/admin/class-wc-bookings-products-import.php:55
+msgid "Max_date_value"
+msgstr "Max_date_value"
+
+#: includes/admin/class-wc-bookings-products-export.php:53
+#: includes/admin/class-wc-bookings-products-import.php:54
+msgid "Max_date_unit"
+msgstr "Max_date_unit"
+
+#: includes/admin/class-wc-bookings-products-export.php:52
+#: includes/admin/class-wc-bookings-products-import.php:53
+msgid "Has_restricted_days"
+msgstr "Has_restricted_days"
+
+#: includes/admin/class-wc-bookings-products-export.php:51
+#: includes/admin/class-wc-bookings-products-import.php:52
+msgid "Has_resources"
+msgstr "Has_resources"
+
+#: includes/admin/class-wc-bookings-products-export.php:50
+#: includes/admin/class-wc-bookings-products-import.php:51
+msgid "Has_persons"
+msgstr "Has_persons"
+
+#: includes/admin/class-wc-bookings-products-export.php:49
+#: includes/admin/class-wc-bookings-products-import.php:50
+msgid "Has_person_types"
+msgstr "Has_person_types"
+
+#: includes/admin/class-wc-bookings-products-export.php:48
+#: includes/admin/class-wc-bookings-products-import.php:49
+msgid "Has_person_qty_multiplier"
+msgstr "Has_person_qty_multiplier"
+
+#: includes/admin/class-wc-bookings-products-export.php:47
+#: includes/admin/class-wc-bookings-products-import.php:48
+msgid "Has_person_cost_multiplier"
+msgstr "Has_person_cost_multiplier"
+
+#: includes/admin/class-wc-bookings-products-export.php:46
+#: includes/admin/class-wc-bookings-products-import.php:47
+msgid "First_block_time"
+msgstr "First_block_time"
+
+#: includes/admin/class-wc-bookings-products-export.php:45
+#: includes/admin/class-wc-bookings-products-import.php:46
+msgid "Enable_range_picker"
+msgstr "Enable_range_picker"
+
+#: includes/admin/class-wc-bookings-products-export.php:44
+#: includes/admin/class-wc-bookings-products-import.php:45
+#: includes/booking-form/class-wc-booking-form.php:212
+#: includes/wc-bookings-functions.php:71
+msgid "Duration"
+msgstr "المدة"
+
+#: includes/admin/class-wc-bookings-products-export.php:43
+#: includes/admin/class-wc-bookings-products-import.php:44
+msgid "Duration_unit"
+msgstr "Duration_unit"
+
+#: includes/admin/class-wc-bookings-products-export.php:42
+#: includes/admin/class-wc-bookings-products-import.php:43
+msgid "Duration_type"
+msgstr "Duration_type"
+
+#: includes/admin/class-wc-bookings-products-export.php:41
+#: includes/admin/class-wc-bookings-products-import.php:42
+msgid "Display_cost"
+msgstr "Display_cost"
+
+#: includes/admin/class-wc-bookings-products-export.php:40
+#: includes/admin/class-wc-bookings-products-import.php:41
+msgid "Default_date_availability"
+msgstr "Default_date_availability"
+
+#: includes/admin/class-wc-bookings-products-export.php:39
+#: includes/admin/class-wc-bookings-products-import.php:40
+msgid "Cost"
+msgstr "التكلفة"
+
+#: includes/admin/class-wc-bookings-products-export.php:38
+#: includes/admin/class-wc-bookings-products-import.php:39
+msgid "Check_start_block_only"
+msgstr "Check_start_block_only"
+
+#: includes/admin/class-wc-bookings-products-export.php:37
+#: includes/admin/class-wc-bookings-products-import.php:38
+msgid "Cancel_limit"
+msgstr "Cancel_limit"
+
+#: includes/admin/class-wc-bookings-products-export.php:36
+#: includes/admin/class-wc-bookings-products-import.php:37
+msgid "Cancel_limit_unit"
+msgstr "Cancel_limit_unit"
+
+#: includes/admin/class-wc-bookings-products-export.php:35
+#: includes/admin/class-wc-bookings-products-import.php:36
+msgid "Calendar_display_mode"
+msgstr "Calendar_display_mode"
+
+#: includes/admin/class-wc-bookings-products-export.php:34
+#: includes/admin/class-wc-bookings-products-import.php:35
+msgid "Buffer_period"
+msgstr "Buffer_period"
+
+#: includes/admin/class-wc-bookings-products-export.php:33
+#: includes/admin/class-wc-bookings-products-import.php:34
+msgid "Block_cost"
+msgstr "Block_cost"
+
+#: includes/admin/class-wc-bookings-products-export.php:31
+#: includes/admin/class-wc-bookings-products-import.php:32
+msgid "Apply_adjacent_buffer"
+msgstr "Apply_adjacent_buffer"
+
+#: includes/admin/class-wc-bookings-menus.php:227
+msgid "Calendar Connection"
+msgstr "اتصال التقويم"
+
+#: includes/admin/class-wc-bookings-menus.php:221
+msgid "Timezones"
+msgstr "المناطق الزمنية"
+
+#: includes/admin/class-wc-bookings-menus.php:197
+msgid "Store Availability"
+msgstr "توافر المخزن"
+
+#: includes/admin/class-wc-bookings-menus.php:163
+msgid "Notification sent successfully"
+msgstr "تم إرسال التنبيه بنجاح"
+
+#: includes/admin/class-wc-bookings-menus.php:141
+msgid "Please enter a subject"
+msgstr "يرجى إدخال موضوع "
+
+#: includes/admin/class-wc-bookings-menus.php:137
+msgid "Please enter a message"
+msgstr "يرجى إدخال رسالة"
+
+#: includes/admin/class-wc-bookings-menus.php:133
+msgid "Please choose a product"
+msgstr "يرجى اختيار منتج"
+
+#: includes/admin/class-wc-bookings-menus.php:73
+#: includes/gateways/class-wc-bookings-gateway.php:26
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/admin/class-wc-bookings-menus.php:72
+#: includes/admin/views/html-notifications-page.php:2
+#: includes/admin/views/html-notifications-page.php:58
+#: woocommerce-bookings.php:184
+msgid "Send Notification"
+msgstr "إرسال تنبيه"
+
+#: includes/admin/class-wc-bookings-menus.php:71
+#: includes/admin/views/html-calendar-day.php:2
+#: includes/admin/views/html-calendar-month.php:2
+#: includes/class-wc-bookings-google-calendar-connection.php:882
+#: woocommerce-bookings.php:174
+msgid "Calendar"
+msgstr "التقويم"
+
+#: includes/admin/class-wc-bookings-menus.php:70
+#: includes/admin/views/html-create-booking-page-2.php:7
+#: includes/admin/views/html-create-booking-page-2.php:28
+#: includes/admin/views/html-create-booking-page.php:7
+#: includes/class-wc-bookings-init.php:92 woocommerce-bookings.php:163
+msgid "Add Booking"
+msgstr "إضافة حجز"
+
+#: includes/admin/class-wc-bookings-inbox-notices.php:49
+msgid "Add a bookable product"
+msgstr "إضافة منتج قابل للحجز"
+
+#: includes/admin/class-wc-bookings-inbox-notices.php:44
+msgid "Set my availability"
+msgstr "تعيين توافري"
+
+#: includes/admin/class-wc-bookings-inbox-notices.php:30
+msgid "To get set up, you'll need to set your availability or add a bookable product."
+msgstr "لإجراء الإعداد، سيتعين عليك تعيين توافرك أو إضافة منتج قابل للحجز."
+
+#: includes/admin/class-wc-bookings-inbox-notices.php:28
+msgid "You're almost ready to take bookings!"
+msgstr "أنتَ على وشك إجراء الحجوزات!"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:380
+msgid "End time (local timezone):"
+msgstr "وقت الانتهاء (المنطقة الزمنية المحلية):"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:371
+msgid "Start time (local timezone):"
+msgstr "وقت البدء (المنطقة الزمنية المحلية):"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:362
+msgid "End time:"
+msgstr "وقت الانتهاء:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:354
+msgid "Start time:"
+msgstr "وقت البدء:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:348
+msgid "Check this box if the booking is for all day."
+msgstr "حدِّد هذا المربع إذا كان الحجز طوال اليوم."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:347
+msgid "All day booking:"
+msgstr "الحجز طوال اليوم:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:339
+msgid "End date:"
+msgstr "تاريخ الانتهاء:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:331
+msgid "Start date:"
+msgstr "تاريخ البدء:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:327
+msgid "Booking date &amp; time"
+msgstr "تاريخ الحجز ووقته"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:253
+msgid "Parent booking ID:"
+msgstr "معرِّف الحجز الأصلي:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:246
+msgid "Booked product:"
+msgstr "المنتج المحجوز:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:239
+msgid "Booking specification"
+msgstr "مواصفات الحجز"
+
+#. translators: 1: full name 2: user id 3: email
+#: includes/admin/class-wc-bookings-details-meta-box.php:199
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr "⁦%1$s⁩ (رقم ⁦%2$s⁩ - %3$s)"
+
+#. translators: 1: guest name
+#: includes/admin/class-wc-bookings-details-meta-box.php:192
+msgctxt "Admin booking guest placeholder"
+msgid "Guest (%s)"
+msgstr "الضيف (%s)"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:189
+#: includes/admin/views/html-create-booking-page.php:22
+#: includes/admin/views/html-create-booking-page.php:24
+msgid "Guest"
+msgstr "زائر"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:186
+msgid "Customer:"
+msgstr "الزبون:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:174
+msgid "Booking status:"
+msgstr "حالة الحجز:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:170
+msgid "m"
+msgstr "متر"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:170
+msgid "h"
+msgstr "س"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:169
+msgid "Date created:"
+msgstr "تاريخ الإنشاء:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:157
+msgid "Order ID:"
+msgstr "معرِّف الطلب:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:154
+msgid "General details"
+msgstr "تفاصيل عامة"
+
+#. translators: 1: bookings addon title
+#: includes/admin/class-wc-bookings-details-meta-box.php:147
+msgid "Booking type: %s"
+msgstr "نوع الحجز: %s"
+
+#. translators: 1: href to order id
+#: includes/admin/class-wc-bookings-details-meta-box.php:142
+msgid "Linked to order %s."
+msgstr "مرتبط بالطلب %s."
+
+#. translators: 1: booking id
+#: includes/admin/class-wc-bookings-details-meta-box.php:135
+msgid "Booking #%s details"
+msgstr "تفاصيل الحجز رقم %s"
+
+#. translators: 1: product type
+#: includes/admin/class-wc-bookings-details-meta-box.php:85
+msgid "This booking is missing a required add-on (product type: %s). Some information is shown below but might be incomplete. Please install the missing add-on through the plugins screen."
+msgstr "يفتقد هذا الحجز إلى إحدى الوظائف الإضافية المطلوبة (نوع المنتج: %s). تظهر بعض المعلومات أدناه ولكن ربما تكون غير مكتملة. يرجى تثبيت الوظيفة الإضافية المفقودة من خلال شاشة الإضافات."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:79
+msgid "It appears the booking product associated with this booking has been removed."
+msgstr "يبدو أنه قد تمت إزالة منتج الحجز المرتبط بهذا الحجز."
+
+#. translators: 1: maximum bookable date
+#: includes/admin/class-wc-bookings-details-meta-box.php:74
+msgid "This booking is scheduled over the product's allowed max booking date (%s). Please ensure this is correct."
+msgstr "تمت جدولة هذا الحجز خلال تاريخ الحجز الأقصى المسموح به للمنتج (%s). يرجى التأكُّد من أنَّ هذا صحيح."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:66
+msgid "This booking is scheduled over 2 years into the future. Please ensure this is correct."
+msgstr "تمت جدولة هذا الحجز على مدار عامين في المستقبل. يرجى التأكُّد من أنَّ هذا صحيح."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:54
+msgid "Booking Details"
+msgstr "تفاصيل الحجز"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:101
+msgid "Phone:"
+msgstr "الهاتف:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:94
+msgid "No billing address set."
+msgstr "لم يتم إضافة عنوان الفاتورة."
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:93
+msgid "Address:"
+msgstr "العنوان:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:76
+#: includes/admin/class-wc-bookings-customer-meta-box.php:97
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:72
+msgid "Name:"
+msgstr "الاسم:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:47
+msgid "Customer details"
+msgstr "بيانات الزبون"
+
+#: includes/admin/class-wc-bookings-create.php:122
+msgid "Error: Could not create item"
+msgstr "خطأ: تعذر إنشاء عنصر"
+
+#: includes/admin/class-wc-bookings-create.php:94
+msgid "Error: Could not create order"
+msgstr "خطأ: تعذر إنشاء الطلب"
+
+#: includes/admin/class-wc-bookings-create.php:48
+#: includes/admin/class-wc-bookings-create.php:100
+msgid "Invalid order ID provided"
+msgstr "تم توفير معرِّف طلب غير صالح"
+
+#: includes/admin/class-wc-bookings-create.php:34
+msgid "Please choose a bookable product"
+msgstr "يرجى اختيار منتج قابل للحجز"
+
+#: includes/admin/class-wc-bookings-create.php:25
+msgid "Error - please try again"
+msgstr "خطأ - يرجى المحاولة مجددًا"
+
+#: includes/admin/class-wc-bookings-cpt.php:374
+msgid "All Bookable Products"
+msgstr "جميع المنتجات القابلة للحجز"
+
+#: includes/admin/class-wc-bookings-cpt.php:283
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: includes/admin/class-wc-bookings-cpt.php:275
+#: includes/admin/views/html-availability-views-nav.php:6
+msgid "View"
+msgstr "عرض"
+
+#. translators: 1: a href to booking id
+#: includes/admin/class-wc-bookings-cpt.php:224
+msgid "Booking #%d"
+msgstr "الحجز رقم%d"
+
+#: includes/admin/class-wc-bookings-cpt.php:176
+#: templates/myaccount/bookings.php:43 templates/myaccount/my-bookings.php:34
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#: includes/admin/class-wc-bookings-cpt.php:175
+#: templates/myaccount/bookings.php:42 templates/myaccount/my-bookings.php:33
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#: includes/admin/class-wc-bookings-cpt.php:174
+#: templates/emails/customer-booking-confirmed.php:116
+#: templates/myaccount/bookings.php:41 templates/myaccount/my-bookings.php:32
+msgid "Order"
+msgstr "الطلب"
+
+#: includes/admin/class-wc-bookings-cpt.php:173
+msgid "Booked By"
+msgstr "تم الحجز بواسطة"
+
+#: includes/admin/class-wc-bookings-cpt.php:172
+msgid "# of Persons"
+msgstr "عدد الأشخاص"
+
+#: includes/admin/class-wc-bookings-cpt.php:171
+#: templates/emails/admin-booking-cancelled.php:32
+#: templates/emails/admin-new-booking.php:56
+#: templates/emails/customer-booking-cancelled.php:40
+#: templates/emails/customer-booking-confirmed.php:40
+#: templates/emails/customer-booking-notification.php:31
+#: templates/emails/customer-booking-pending-confirmation.php:40
+#: templates/emails/customer-booking-reminder.php:45
+msgid "Booked Product"
+msgstr "المنتج المحجوز"
+
+#: includes/admin/class-wc-bookings-cpt.php:170
+#: templates/myaccount/bookings.php:39 templates/myaccount/my-bookings.php:30
+msgid "ID"
+msgstr "المعرف"
+
+#: includes/admin/class-wc-bookings-cpt.php:169
+#: templates/myaccount/bookings.php:44 templates/myaccount/my-bookings.php:35
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/admin/class-wc-bookings-cpt.php:153
+msgid "Booking Title"
+msgstr "عنوان الحجز"
+
+#. translators: 1: number of booking statuses change
+#: includes/admin/class-wc-bookings-cpt.php:138
+msgid "%1$s booking status changed."
+msgid_plural "%1$s booking statuses changed."
+msgstr[0] "⁦%1$s⁩ تم تغيير حالة الحجز."
+msgstr[1] "⁦%1$s⁩ تم تغيير حالات الحجز."
+msgstr[2] "⁦%1$s⁩ تم تغيير حالات الحجز."
+msgstr[3] "⁦%1$s⁩ تم تغيير حالات الحجز."
+msgstr[4] "⁦%1$s⁩ تم تغيير حالات الحجز."
+msgstr[5] "⁦%1$s⁩ تم تغيير حالات الحجز."
+
+#: includes/admin/class-wc-bookings-cpt.php:66
+msgid "Mark bookings as unpaid"
+msgstr "وسم الحجوزات بأنها غير مدفوعة"
+
+#: includes/admin/class-wc-bookings-cpt.php:65
+msgid "Mark bookings as paid"
+msgstr "وسم الحجوزات بأنها مدفوعة"
+
+#: includes/admin/class-wc-bookings-cpt.php:64
+msgid "Cancel bookings"
+msgstr "إلغاء الحجوزات"
+
+#: includes/admin/class-wc-bookings-cpt.php:63
+msgid "Unconfirm bookings"
+msgstr "عدم تأكيد الحجوزات"
+
+#: includes/admin/class-wc-bookings-cpt.php:62
+msgid "Confirm bookings"
+msgstr "تأكيد الحجوزات"
+
+#. translators: 1: person id 2: person name 3: person count
+#: includes/admin/class-wc-bookings-calendar.php:749
+msgid "Person #%1$s - %2$s (%3$s)"
+msgstr "الشخص رقم ⁦%1$s⁩ - %2$s (%3$s)"
+
+#: includes/admin/class-wc-bookings-calendar.php:740
+#: includes/class-wc-bookings-ics-exporter.php:176
+msgid "Resource #"
+msgstr "المورد رقم"
+
+#: includes/admin/class-wc-bookings-calendar.php:734
+msgid "Booked by"
+msgstr "تم الحجز بواسطة"
+
+#. translators: 1: person type 2: quantity
+#: includes/admin/class-wc-bookings-calendar.php:613
+#: includes/class-wc-bookings-ics-exporter.php:187
+#: templates/emails/plain/admin-booking-cancelled.php:62
+#: templates/emails/plain/admin-new-booking.php:84
+#: templates/emails/plain/customer-booking-cancelled.php:67
+#: templates/emails/plain/customer-booking-confirmed.php:64
+#: templates/emails/plain/customer-booking-notification.php:61
+#: templates/emails/plain/customer-booking-pending-confirmation.php:66
+#: templates/emails/plain/customer-booking-reminder.php:65
+msgid "%1$s: %2$d"
+msgstr "%1$s: %2$d"
+
+#: includes/admin/class-wc-bookings-calendar.php:611
+#: includes/admin/class-wc-bookings-details-meta-box.php:263
+#: includes/class-wc-bookings-ics-exporter.php:185
+#: includes/wc-bookings-functions.php:72
+#: templates/emails/admin-booking-cancelled.php:72
+#: templates/emails/admin-new-booking.php:95
+#: templates/emails/customer-booking-cancelled.php:79
+#: templates/emails/customer-booking-confirmed.php:79
+#: templates/emails/customer-booking-notification.php:70
+#: templates/emails/customer-booking-pending-confirmation.php:79
+#: templates/emails/customer-booking-reminder.php:84
+#: templates/emails/plain/admin-booking-cancelled.php:60
+#: templates/emails/plain/admin-new-booking.php:82
+#: templates/emails/plain/customer-booking-cancelled.php:65
+#: templates/emails/plain/customer-booking-confirmed.php:62
+#: templates/emails/plain/customer-booking-notification.php:59
+#: templates/emails/plain/customer-booking-pending-confirmation.php:64
+#: templates/emails/plain/customer-booking-reminder.php:63
+msgid "Person(s)"
+msgstr "الشخص (الأشخاص)"
+
+#. translators: 1: number of bookings that are not displayed on calendar day
+#: includes/admin/class-wc-bookings-calendar.php:325
+msgid "%d more"
+msgstr "%d المزيد"
+
+#: includes/admin/class-wc-bookings-calendar.php:212
+#: includes/admin/class-wc-bookings-calendar.php:286
+#: includes/admin/class-wc-bookings-calendar.php:651
+msgid "(From Google Calendar)"
+msgstr "(من تقويم غوغل)"
+
+#. translators: 1: start time 2: end time
+#: includes/admin/class-wc-bookings-calendar.php:210
+#: includes/admin/class-wc-bookings-calendar.php:621
+#: includes/admin/class-wc-bookings-calendar.php:643
+msgid "%1$s — %2$s"
+msgstr "%1$s — %2$s"
+
+#: includes/admin/class-wc-bookings-calendar.php:210
+#: includes/admin/class-wc-bookings-calendar.php:621
+#: includes/admin/class-wc-bookings-calendar.php:629
+#: includes/admin/class-wc-bookings-calendar.php:647
+msgid "All Day"
+msgstr "طوال اليوم"
+
+#: includes/admin/class-wc-bookings-ajax.php:304
+msgid "Cheatin&#8217; huh?"
+msgstr "غش، أليس كذلك؟"
+
+#: includes/admin/class-wc-bookings-ajax.php:287
+msgid "No blocks available."
+msgstr "لا تتوافر مكوِّنات."
+
+#: includes/admin/class-wc-bookings-ajax.php:238
+msgid "Please enter a valid date."
+msgstr "يرجى إدخال تاريخ صالح."
+
+#: includes/admin/class-wc-bookings-ajax.php:202
+msgid "Booking cost"
+msgstr "تكلفة الحجز"
+
+#: includes/admin/class-wc-bookings-ajax.php:165
+msgid "This booking is unavailable."
+msgstr "هذا الحجز غير متوافر."
+
+#: includes/admin/class-wc-bookings-ajax.php:130
+msgid "You have taken too long. Please go back and retry."
+msgstr "لقد استغرقتَ وقتًا طويلاً. يُرجى الرجوع وإعادة المحاولة."
+
+#: includes/admin/class-wc-bookings-ajax.php:127
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك الصلاحيات الكافية لدخول هذه الصفحة."
+
+#: includes/admin/class-wc-bookings-ajax.php:70
+msgid "Unable to add resource"
+msgstr "تتعذر إضافة المورد"
+
+#: includes/admin/class-wc-bookings-ajax.php:55
+msgid "The resource has already been linked to this product"
+msgstr "تم ربط المورد بالفعل بهذا المنتج"
+
+#: includes/admin/class-wc-bookings-admin.php:696
+msgid "Enable this if this bookable product has multiple bookable resources, for example room types or instructors."
+msgstr "يمكنك تمكين هذا إذا كان هذا المنتج القابل للحجز لديه موارد متعددة قابلة للحجز، على سبيل المثال أنواع الغرف أو المدربين."
+
+#: includes/admin/class-wc-bookings-admin.php:695
+msgid "Has resources"
+msgstr "يحتوي على موارد"
+
+#: includes/admin/class-wc-bookings-admin.php:689
+msgid "Enable this if this bookable product can be booked by a customer defined number of persons."
+msgstr "يمكنك تمكين هذا إذا كان بإمكان عدد من الأشخاص الذين حدَّدهم العميل حجز هذا المنتج القابل للحجز. "
+
+#: includes/admin/class-wc-bookings-admin.php:688
+msgid "Has persons"
+msgstr "يحتوي على أشخاص"
+
+#: includes/admin/class-wc-bookings-admin.php:651
+msgid "Resource"
+msgstr "مورد"
+
+#: includes/admin/class-wc-bookings-admin.php:650
+#: includes/admin/views/html-create-booking-page.php:18
+msgid "Customer"
+msgstr "زبون"
+
+#: includes/admin/class-wc-bookings-admin.php:649
+msgid "View details"
+msgstr "عرض التفاصيل"
+
+#: includes/admin/class-wc-bookings-admin.php:644
+msgid "Enter a name for the new resource"
+msgstr "إدخال اسم للمورد الجديد"
+
+#: includes/admin/class-wc-bookings-admin.php:643
+msgid "days"
+msgstr "أيام"
+
+#: includes/admin/class-wc-bookings-admin.php:642
+msgid "hours"
+msgstr "ساعات"
+
+#: includes/admin/class-wc-bookings-admin.php:641
+msgid "minutes"
+msgstr "دقائق"
+
+#: includes/admin/class-wc-bookings-admin.php:638
+msgid "Are you sure you want to remove this resource?"
+msgstr "هل تريد بالتأكيد إزالة هذا المورد؟"
+
+#: includes/admin/class-wc-bookings-admin.php:635
+msgid "Are you sure you want to remove this person type?"
+msgstr "هل تريد بالتأكيد إزالة نوع الشخص؟"
+
+#: includes/admin/class-wc-bookings-admin.php:541
+#: includes/class-wc-booking-privacy.php:78
+msgid "Bookable product"
+msgstr "منتج قابل للحجز"
+
+#: includes/admin/class-wc-bookings-admin.php:455
+msgid "Booking submitted."
+msgstr "تم إرسال الحجز."
+
+#: includes/admin/class-wc-bookings-admin.php:454
+msgid "Booking saved."
+msgstr "تم حفظ الحجز."
+
+#: includes/admin/class-wc-bookings-admin.php:450
+msgid "Custom field deleted."
+msgstr "تم حذف الحقل الخاص."
+
+#: includes/admin/class-wc-bookings-admin.php:449
+msgid "Custom field updated."
+msgstr "تم تحديث الحقل الخاص."
+
+#: includes/admin/class-wc-bookings-admin.php:448
+#: includes/admin/class-wc-bookings-admin.php:451
+#: includes/admin/class-wc-bookings-admin.php:453
+msgid "Booking updated."
+msgstr "تم تحديث الحجز."
+
+#: includes/admin/class-wc-bookings-admin.php:374
+#: includes/admin/class-wc-bookings-admin.php:652
+#: includes/admin/views/html-booking-tab.php:4
+#: includes/booking-form/class-wc-booking-form.php:255
+#: includes/class-wc-bookings-google-calendar-connection.php:1405
+#: includes/wc-bookings-functions.php:1120
+msgid "Persons"
+msgstr "أشخاص"
+
+#: includes/admin/class-wc-bookings-admin.php:367
+#: includes/admin/views/html-booking-tab.php:3
+msgid "Costs"
+msgstr "التكاليف"
+
+#: includes/admin/class-wc-bookings-admin.php:360
+#: includes/admin/class-wc-bookings-products-export.php:32
+#: includes/admin/class-wc-bookings-products-import.php:33
+#: includes/admin/views/html-booking-tab.php:2
+msgid "Availability"
+msgstr "التوفر"
+
+#: includes/admin/class-wc-bookings-admin.php:353
+#: includes/admin/views/html-booking-resources.php:36
+#: includes/admin/views/html-booking-tab.php:1
+#: includes/class-wc-bookings-init.php:48
+#: includes/class-wc-bookings-init.php:64
+msgid "Resources"
+msgstr "الموارد"
+
+#: includes/admin/class-wc-bookings-admin.php:67
+msgid "This tool will clear all expired In Cart bookings."
+msgstr "ستمسح هذه الأداة جميع الحجوزات التي انتهت صلاحيتها في عربة التسوق."
+
+#: includes/admin/class-wc-bookings-admin.php:66
+msgid "Clear"
+msgstr "مسح"
+
+#: includes/admin/class-wc-bookings-admin.php:65
+msgid "Clear expired In Cart bookings"
+msgstr "مسح الحجوزات التي انتهت صلاحيتها في عربة التسوق"
+
+#: includes/admin/class-wc-bookings-admin.php:61
+msgid "This tool will clean the person types that are not used by any booking or a product."
+msgstr "ستمسح هذه الأداة أنواع الأشخاص التي لا يستخدمها أي حجز أو منتج."
+
+#: includes/admin/class-wc-bookings-admin.php:60
+msgid "Clean Person Types"
+msgstr "مسح أنواع الأشخاص"
+
+#: includes/admin/class-wc-bookings-admin.php:59
+msgid "Clean unused Person Types from DB"
+msgstr "مسح أنواع الأشخاص غير المستخدمة من قاعدة البيانات "
+
+#: includes/admin/class-wc-bookings-addons.php:21
+msgid "Bookings Addons"
+msgstr "وظائف الحجوزات الإضافية"
+
+#: includes/admin/class-wc-bookings-addons.php:20
+msgid "bookings-extensions"
+msgstr "محلقات الحجوزات"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:115
+#: includes/admin/views/html-booking-availability.php:167
+#: includes/admin/views/html-booking-pricing.php:78
+#: includes/admin/views/html-classic-availability-settings.php:166
+msgid "Add Range"
+msgstr "إضافة نطاق"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:103
+#: includes/admin/views/html-booking-availability.php:155
+#: includes/admin/views/html-classic-availability-settings.php:150
+msgid "Priority"
+msgstr "الأولوية"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:102
+#: includes/admin/views/html-booking-availability.php:154
+#: includes/admin/views/html-classic-availability-settings.php:148
+msgid "If not bookable, users won't be able to choose this block for their booking."
+msgstr "إذا لم يكن قابلاً للحجز، فلن يتمكن المستخدمون من اختيار هذا المكوِّن لحجزهم."
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:102
+#: includes/admin/views/html-booking-availability.php:154
+#: includes/admin/views/html-classic-availability-settings.php:148
+msgid "Bookable"
+msgstr "قابل للحجز"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:99
+#: includes/admin/views/html-booking-availability.php:151
+#: includes/admin/views/html-booking-pricing.php:62
+#: includes/admin/views/html-classic-availability-settings.php:145
+msgid "Range"
+msgstr "نطاق"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:98
+#: includes/admin/views/html-booking-availability.php:150
+#: includes/admin/views/html-booking-pricing.php:61
+#: includes/admin/views/html-classic-availability-settings.php:144
+msgid "Range type"
+msgstr "نوع النطاق"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:80
+msgid "The quantity of this resource available at any given time."
+msgstr "كمية هذا المورد المتوافر في فترة زمنية معيَّنة."
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:79
+msgid "Available Quantity"
+msgstr "الكمية المتوافرة"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:54
+msgid "Resource details"
+msgstr "تفاصيل المورد"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:98
+#: includes/class-wc-bookings-init.php:54
+#: includes/class-wc-bookings-init.php:94
+msgid "Edit"
+msgstr "تحرير"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:91
+#: includes/admin/class-wc-bookings-cpt.php:228
+#: includes/admin/class-wc-bookings-customer-meta-box.php:115
+#: includes/admin/class-wc-bookings-details-meta-box.php:113
+#: includes/admin/class-wc-bookings-details-meta-box.php:159
+#: includes/admin/class-wc-bookings-details-meta-box.php:161
+#: includes/emails/class-wc-email-booking-cancelled.php:93
+#: includes/emails/class-wc-email-booking-confirmed.php:91
+#: includes/emails/class-wc-email-booking-notification.php:99
+#: includes/emails/class-wc-email-booking-notification.php:102
+#: includes/emails/class-wc-email-booking-notification.php:105
+#: includes/emails/class-wc-email-booking-notification.php:108
+#: includes/emails/class-wc-email-booking-pending-confirmation.php:85
+#: includes/emails/class-wc-email-booking-reminder.php:81
+#: includes/emails/class-wc-email-new-booking.php:109
+msgid "N/A"
+msgstr "غير محدد"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:48
+#: includes/admin/class-wc-bookings-cpt.php:177
+msgid "Actions"
+msgstr "إجراءات"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:47
+msgid "Parent products"
+msgstr "المنتجات الأصلية"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:46
+#: includes/admin/views/html-booking-person.php:21
+msgid "Name"
+msgstr "الاسم"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:30
+msgid "Bookable resource name"
+msgstr "اسم المورد القابل للحجز"
+

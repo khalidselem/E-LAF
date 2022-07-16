@@ -1,0 +1,246 @@
+/* CMS Button */
+.btn,
+button,
+.button,
+input[type="submit"] {
+  @include font-family-heading($heading_default_font);
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 32px;
+  line-height: 45px;
+  @include transition(all 300ms linear 0ms);
+  @include border-radius(47px);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-weight: 600;
+  outline: none;
+  white-space: nowrap;
+  @include box-shadow(0 4px 7px rgba($primary_color, 0.48));
+  @include background-horizontal($primary_color, $secondary_color);
+  &:hover, &:focus, &:active {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    @include background-horizontal($secondary_color, $primary_color);
+  }
+  
+}
+.btn {
+  i {
+    @include transition(all 300ms linear 0ms);
+  }
+  &.size-lg {
+    line-height: 58px;
+    padding: 0 44px;
+  }
+  &.btn-third {
+    background-color: $third_color3;
+    @include box-shadow(0 2px 4px rgba(0,0,0,0.10) inset);
+    &:hover {
+      background-color: $secondary_color;
+    }
+  }
+  &.btn-primary {
+    background-color: $primary_color;
+    background-image: none;
+  }
+  &.btn-secondary {
+    background-color: $secondary_color;
+    background-image: none;
+  }
+  &.no-shadow {
+    @include box-shadow(none);
+  }
+  &.btn-outline {
+    color: #2d3136;
+    background-color: transparent;
+    background-image: none;
+    i {
+      color: $primary_color;
+    }
+    span {
+      &:before {
+        content: '';
+        @include background-horizontal($primary_color, $secondary_color);
+        z-index: -2;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        @include border-radius(50px);
+      }
+      &:after {
+        content: '';
+        background-color: #fff;
+        z-index: -1;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 2px;
+        @include border-radius(50px);
+        @include transition(all 300ms linear 0ms);
+      }
+    }
+    &:hover {
+      color: #fff;
+      i {
+        color: #fff;
+      }
+      span:after {
+        background-color: transparent;
+      }
+    }
+  }
+  &.btn-gray, &.btn-dark {
+    background-color: transparent;
+    background-image: none;
+    line-height: 45px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size: 15px;
+    color: #333;
+    @include box-shadow(none);
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      @include border-radius(45px);
+      z-index: -1;
+      @include transition(all 300ms linear 0ms);
+    }
+    &:before {
+      @include box-shadow(-2px 2px 4px rgba(0, 0, 0, 0.10) inset);
+      background-color: #eeeef6;
+    }
+    &:after {
+      @include background-horizontal($primary_color, $secondary_color);
+      opacity: 0;
+    }
+    &:hover, &:focus {
+      background-color: transparent;
+      color: #fff;
+      @include box-shadow(0 4px 7px rgba($primary_color, 0.47));
+      &:before {
+        opacity: 0;
+      }
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+  &.btn-dark {
+    color: #fff;
+    &:before {
+      background-color: #191514;
+      @include box-shadow(none);
+    }
+  }
+  &.btn-gradient {
+    background-color: transparent;
+    background-image: none;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      @include border-radius(4px);
+      z-index: -1;
+      @include transition(all 300ms linear 0ms);
+    }
+    &:before {
+      @include background-horizontal($primary_color, $secondary_color);
+    }
+    &:after {
+      @include background-horizontal($secondary_color, $primary_color);
+      opacity: 0;
+    }
+    &:hover, &:focus {
+      &:before {
+        opacity: 0;
+      }
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+  &.btn-shadow {
+    @include box-shadow(0px 2px 10px rgba(34, 34, 34, 0.36));
+  }
+  &.btn-link {
+    line-height: 47px;
+    padding-left: 30px;
+    padding-right: 74px;
+    i {
+      width: 56px;
+      height: 47px;
+      line-height: 47px;
+      font-size: 13px;
+      color: #fff;
+      @include border-radius(0 47px 47px 0);
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: $secondary_color;
+    }
+  }
+}
+.btn-align-center {
+  text-align: center;
+}
+.btn-align-right {
+  text-align: right;
+}
+.btn-group .btn + .btn {
+  margin-left: 30px;
+}
+.btn-block {
+  display: block;
+}
+.ct-button-wrapper i {
+  margin-left: 10px;
+}
+.ct-btn-group {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.ct-button-wrapper {
+  .btn.btn-icon {
+    padding-left: 27px;
+    padding-right: 77px;
+    i {
+      font-size: 13px;
+      line-height: inherit;
+      width: 56px;
+      background-color: $secondary_color;
+      color: #fff;
+      position: absolute;
+      top: 0;
+      right: 0;
+      overflow: hidden;
+    }
+    &:hover {
+      background-color: $primary_color;
+      i:before {
+        -o-animation: toRightFromLeft 0.3s forwards;
+        -ms-animation: toRightFromLeft 0.3s forwards;
+        -webkit-animation: toRightFromLeft 0.3s forwards;
+        animation: toRightFromLeft 0.3s forwards;
+        display: block;
+      }
+    }
+  }
+}

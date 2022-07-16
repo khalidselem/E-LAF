@@ -1,0 +1,63 @@
+// Page Title
+//--------------------------------------------------
+#pagetitle {
+  padding: 208px 0 99px;
+  background-color: $primary_color;
+  background-image: url(../images/bg-page-title.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  @media #{$max-lg} {
+    background-attachment: inherit;
+  }
+  @media #{$max-md} {
+    padding: 80px 0;
+  }
+  &:before {
+    background-color: rgba(#0a1214, 0.34);
+  }
+  .container {
+    position: relative;
+    z-index: 99;
+  }
+  h1.page-title {
+  	font-size: 36px;
+    color: #fff;
+    margin-bottom: 0px;
+    font-weight: 700;
+    cite {
+      font-style: normal;
+    }
+    @media #{$max-sm} {
+      font-size: 30px;
+    }
+  }
+  .ct-breadcrumb {
+    margin: 27px 0 0;
+    list-style: none;
+    li {
+      font-size: 16px;
+      color: $primary_color;
+      display: inline-block;
+      margin-right: 8px;
+      font-weight: 600;
+      @include font-family-heading($heading_default_font);
+      &:after {
+        content: "\f105";
+        font-family: FontAwesome;
+        margin-left: 9px;
+        color: #fff;
+      }
+      a {
+        color: #fff;
+        &:hover {
+          color: $primary_color;
+        }
+      }
+      &:last-child:after {
+        display: none;
+      }
+    }
+  }
+}

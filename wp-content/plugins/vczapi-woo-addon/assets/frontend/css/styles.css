@@ -1,0 +1,21 @@
+.vczapi-purchasable-meetings--items { display: flex; flex-wrap: wrap; }
+
+.vczapi-purchasable-meetings--item { width: 100%; margin-bottom: 20px; }
+
+@media screen and (min-width: 767px) { .vczapi-purchasable-meetings--item { width: 45%; }
+  .vczapi-purchasable-meetings--item { margin-right: 5%; } }
+
+@media screen and (min-width: 1200px) { .vczapi-purchasable-meetings--item { width: 25%; }
+  .vczapi-purchasable-meetings--item { margin-right: 5%; } }
+
+.vczapi-purchasable-meetings--item__image { box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3); margin-bottom: 10px; }
+
+.vczapi-purchasable-meetings--item__details, .vczapi-purchasable-meetings--item__details p { font-size: 1em; }
+
+.vczapi-purchasable-meetings--item__details h1, .vczapi-purchasable-meetings h2, .vczapi-purchasable-meetings h3, .vczapi-purchasable-meetings h4, .vczapi-purchasable-meetings h5, .vczapi-purchasable-meetings h6 { font-size: 1.2em; margin-bottom: 10px; }
+
+.vczapi-purchasable-meetings--item__details__meta .meta { display: flex; flex-direction: column; margin-bottom: 5px; }
+
+.vczapi-booking-addon-host-list { width: 100%; margin: 10px 0; }
+
+.vczapi-woocommerce-email-mtg-details { list-style: none; margin: 10px 0; }

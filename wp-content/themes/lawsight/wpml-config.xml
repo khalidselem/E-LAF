@@ -1,0 +1,12 @@
+<wpml-config>
+    <admin-texts>
+        <key name="lawsight_get_opt">
+            <key name="topbar_phone" />
+            <key name="footer_copyright" />
+            <key name="subtitle_404_page" />
+            <key name="title_404_page" />
+            <key name="btn_text_404_page" />
+            <key name="newsletter_title" />
+        </key>
+    </admin-texts>
+</wpml-config>

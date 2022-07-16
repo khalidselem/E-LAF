@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoom Integration for WooCommerce Booking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-12 11:02+0000\n"
+"PO-Revision-Date: 2020-03-12 11:02+0000\n"
+"Last-Translator: Deepen Bajracharya <dpen.connectify@gmail.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: vczapi-woo-addon.php:51
+#, php-format
+msgid ""
+"This plugin requires PHP 5.6+ to run properly. Please contact your hosting "
+"company and ask them to update the PHP version of your site to at least PHP "
+"5.6+ Your current version of PHP: %2$s%1$s%3$s"
+msgstr ""
+"This plugin requires PHP 5.6+ to run properly. Please contact your hosting "
+"company and ask them to update the PHP version of your site to at least PHP "
+"5.6+ Your current version of PHP: %2$s%1$s%3$s"
+
+#: includes/WoocommerceProduct.php:53
+#, php-format
+msgid "You have already added this meeting in your cart ! %s"
+msgstr "你已在购物车中添加了此会议！%s"
+
+#: includes/WoocommerceProduct.php:77
+msgid "Zoom Meeting product quantity cannot be greater than 1 !"
+msgstr "Zoom会议产品购买数量不能大于 1 ！"
+
+#: includes/WoocommerceProduct.php:136
+msgid "Buy Now for"
+msgstr "立即注册，仅需"
+
+#: includes/WoocommerceProduct.php:138
+msgid "This product is not valid for purchase."
+msgstr "本产品不适用于购买。"
+
+#: includes/DataStore.php:27 includes/Orders.php:126
+msgid "Join"
+msgstr "加入"
+
+#: includes/DataStore.php:29 includes/DataStore.php:32
+msgid "You have not completed your order yet."
+msgstr "你尚未完成你的订单。"
+
+#: includes/DataStore.php:48
+msgid "Start"
+msgstr "启动会议"
+
+#: includes/Bootstrap.php:55
+msgid ""
+"This Plugin requires Video Conferencing with zoom api plugin to work. Please "
+"install it first to use this."
+msgstr ""
+"This Plugin requires Video Conferencing with zoom api plugin to work. Please "
+"install it first to use this."
+
+#: includes/Orders.php:58
+msgid "Meetings"
+msgstr "会议"
+
+#: includes/Orders.php:91
+msgid "Order"
+msgstr "订单"
+
+#: includes/Orders.php:93
+msgid "Date"
+msgstr "日期"
+
+#: includes/Orders.php:95
+msgid "Status"
+msgstr "状态"
+
+#: includes/Orders.php:97
+msgid "Actions"
+msgstr "操作"
+
+#: includes/Orders.php:153
+msgid "No meeting orders received yet."
+msgstr "尚未收到会议订单。"
+
+#: includes/Orders.php:171
+msgid "Join from"
+msgstr "加入自"
+
+#: includes/Admin/Settings.php:32
+msgid "Options Saved !"
+msgstr "选项已保存！"
+
+#: includes/Admin/Settings.php:46
+msgid "Booking Options"
+msgstr "预订选项"
+
+#: includes/Admin/Settings.php:49
+msgid "Documentation"
+msgstr "帮助文档"
+
+#: includes/Admin/Settings.php:52
+msgid "Licensing"
+msgstr "许可"
+
+#: includes/Admin/Settings.php:89
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/Admin/Settings.php:120
+msgid "Configure"
+msgstr "配置"
+
+#: includes/views/woocommerce-settings.php:2
+msgid "WooCommerce Settings"
+msgstr "WooCommerce设置"
+
+#: includes/views/license.php:9
+msgid "License Key"
+msgstr "许可证密钥"
+
+#: includes/views/license.php:13
+msgid "Enter your license key"
+msgstr "输入你的许可证密钥"
+
+#: includes/views/license.php:21
+msgid "License"
+msgstr "许可证"
+
+#: includes/views/license.php:26
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: includes/views/license.php:28
+msgid "Save and Activate License"
+msgstr "保存和激活许可证"
+
+#: includes/views/general.php:7
+msgid "Disable Override Templates ?"
+msgstr "禁用覆盖模板？"
+
+#: includes/views/general.php:11
+msgid ""
+"Checking this will use default WooCommerce Booking confirmation email and my "
+"account bookings template from WooCommerce Booking plugin, theme if you have "
+"copied into your theme. Customizations to your template is necessary if this "
+"option is checked."
+msgstr ""
+
+#: includes/views/general.php:16
+msgid "Disable Meetings Tab (Frontend)?"
+msgstr ""
+
+#: includes/views/general.php:20
+msgid ""
+"Checking this option will disable \"Meetings\" tab in your my-accounts page "
+"in frontend. Enable this if you'll use WooCommerce Bookings only for zoom "
+"meetings."
+msgstr ""
+
+#. 1: billing first and last name
+#: templates/emails/admin-new-booking.php:17
+#, php-format
+msgid ""
+"A booking has been made by %s and is awaiting your approval. The details of "
+"this booking are as follows:"
+msgstr "%s 发起了一个预订，需要你的确认。预订详情如下:"
+
+#. 1: billing first and last name
+#: templates/emails/admin-new-booking.php:20
+#, php-format
+msgid ""
+"A new booking has been made by %s. The details of this booking are as "
+"follows:"
+msgstr "%s 创建了一个新预订。详情如下:"
+
+#: templates/emails/admin-new-booking.php:48
+msgid "Booked Product"
+msgstr "已预订产品"
+
+#: templates/emails/admin-new-booking.php:52
+msgid "Booking ID"
+msgstr "预订ID"
+
+#: templates/emails/admin-new-booking.php:63
+msgid "Booking Start Link"
+msgstr "预订启动链接"
+
+#: templates/emails/admin-new-booking.php:78
+msgid "Booking Type"
+msgstr "预订类型"
+
+#: templates/emails/admin-new-booking.php:83
+msgid "Booking Start Date"
+msgstr "预订开始日期"
+
+#: templates/emails/admin-new-booking.php:87
+msgid "Booking End Date"
+msgstr "预订结束日期"
+
+#: templates/emails/admin-new-booking.php:92
+msgid "Time Zone"
+msgstr "时区"
+
+#: templates/emails/admin-new-booking.php:102
+msgid "Person(s)"
+msgstr "有人（数）"
+
+#: templates/emails/admin-new-booking.php:113
+msgid ""
+"This booking is awaiting your approval. Please check it and inform the "
+"customer if the date is available or not."
+msgstr "此预订订单正在等待你的批准。请检查并告知客户，如果日期是可用的。"
+
+#. 1: a href to booking
+#: templates/emails/admin-new-booking.php:119
+#, php-format
+msgid "You can view and edit this booking in the dashboard here: %s"
+msgstr "你可以在仪表板中查看和编辑此预订：%s"
+
+#: includes/Admin/Woocommerce/ZoomMetaBox.php:31
+msgid "WooCommerce Integration"
+msgstr "WooCommerce 集成"
+
+#: includes/Admin/Woocommerce/ZoomMetaBox.php:47
+msgid "Enable Purchase ?"
+msgstr "启用购买？"
+
+#: includes/Admin/Woocommerce/ZoomMetaBox.php:49
+msgid ""
+"Enabling this will create a new WooCommerce product linked with this post "
+"which will be purchasable by customers."
+msgstr "启用此功能将创建一个新的 WooCommerce 产品与此页面相关联，可以让顾客购买。"
+
+#: includes/Admin/Woocommerce/ZoomMetaBox.php:52
+msgid "Cost"
+msgstr "价格"
+
+#: includes/Admin/Woocommerce/ProductType.php:33
+msgid "Zoom Meeting"
+msgstr "Zoom Meeting"
+
+#: includes/Admin/Woocommerce/ProductType.php:52
+msgid "Pricing"
+msgstr "定价"
+
+#: includes/Admin/Woocommerce/ProductType.php:72
+msgid "Price"
+msgstr "价格"
+
+#: includes/Admin/Woocommerce/ProductType.php:76
+msgid "Enter Meeting Price."
+msgstr "输入会议价格。"
+
+#: includes/Admin/Bookings/BookingTable.php:33
+msgid "Start Link"
+msgstr "启动链接"
+
+#: includes/Admin/Bookings/BookingTabs.php:31
+msgid "Zoom"
+msgstr "Zoom"
+
+#: includes/Admin/Bookings/BookingTabs.php:60
+msgid "Enable Zoom Meeting"
+msgstr "启用Zoom Meeting"
+
+#: includes/Admin/Bookings/BookingTabs.php:61
+msgid ""
+"Checking this option will create a new meeting every time a booking is added "
+"for this product."
+msgstr "勾选此项，则每当有预订添加到此产品时，可以创建一个会议。"
+
+#: includes/Admin/Bookings/BookingTabs.php:71
+msgid ""
+"Select which host would be responsible for hosting this booking product."
+msgstr "选择哪一个会议主持人将负责主持此预订产品。"
+
+#: includes/Admin/Bookings/BookingTabs.php:78
+msgid "Allow Join Before Host ?"
+msgstr "允许主持者开始前加入？"
+
+#: includes/Admin/Bookings/BookingTabs.php:79
+msgid ""
+"Allow participants to join the meeting before the host starts the meeting. "
+"Only used for scheduled or recurring meetings."
+msgstr "允许参与者在主持人开始会议之前加入会议。仅用于计划会议或定期会议。"
+
+#: includes/Admin/Bookings/BookingTabs.php:86
+msgid "Enforce Login ?"
+msgstr "强制登录？"
+
+#: includes/Admin/Bookings/BookingTabs.php:87
+msgid ""
+"Only signed in users can join this meeting. i.e Signed into Zoom Account."
+msgstr "只有已注册的用户才能加入此会议。即注册到Zoom账户者。"

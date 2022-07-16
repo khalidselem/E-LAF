@@ -1,0 +1,160 @@
+*** Zoom Integration for WooCommerce Booking Changelogs ***
+2021.02.04 - version 2.3.6
+*Feature: Add Zoom Meeting to Google calendar ( if calendar integration enabled )
+
+2021.01.22 - version 2.3.5
+*Feature: Partial french translations added
+
+2021.01.21 - version 2.3.4
+*Fix: Edge case handling added for scenario where Products are deleted that doesn't trigger post_deleted hook
+
+2021.01.19 - version 2.3.3
+*Fix: Refunded emails will no longer get Zoom join links
+
+2020.12.08 - version 2.3.1/2.3.2
+* Dev Feature: Added Ability to programmatically enable or disable creating meeting for bookings
+
+2020.12.08 - version 2.3.0
+* Updated logic for bookings in different timezones
+
+2020.11.25 - version 2.2.12
+* Fix: Remove var dump
+
+2020.11.24 - version 2.2.11
+* Dev: Edge case for refunded orders being retrieved
+* Fix: Incorrect date time show on cart and checkout updated for uniformity
+
+2020.11.19 - version 2.2.10
+* Dev: Added vczapi_before_new_zoom_product_saved and vczapi_before_zoom_product_saved hooks to allow for changes
+
+2020.11.17 - version 2.2.9
+* Fix: When Timezone is in clients timezone vs system wrong date/time for meeting was being created with local timezone
+
+2020.11.05 - version 2.2.8
+* Feature: Assing Zoom Host to Bookable Resources
+
+2020.11.04 - version 2.2.7
+* Fix: Hotfix for email reminders backward compatibility
+
+2020.11.04 - version 2.2.6
+* Feature: Compatibility with WooCommerce Integration
+
+2020.10.28 - version 2.2.5
+* Fix : enable_woocommerce should be "on" - not "yes"
+
+2020.10.07 - version 2.2.4
+* Fix : Version Bump Issue
+
+2020.10.07 - version 2.2.3
+* Feature : Added more robust error handling in case of meeting not created due to configuration errors such as host id missing.
+
+2020.10.05 - version 2.2.2
+* Minor Update: Add filter for Join via App [vczoom_join_meeting_via_app_text] change filter for Join via Browser [vczoom_join_meeting_via_browser_text]
+
+2020.09.29 - version 2.2.1
+* Fix: Changed logic for deleting meetings for Order and Booking cancellations
+
+2020.08.13 - version 2.2.0
+* Feature: Compatibility added with Video Conferencing with Zoom
+
+2020.07.09 - version 2.1.8
+* Feature: Ability to add passcode to a bookable product
+* Dev: Add parameters to filter `vczapi_woo_addon_create_meeting_params` to make it easier for devs
+
+2020.05.18 - version 2.1.7
+* Feature: Add WooCommerce Product Vendor Support
+
+2020.05.15 - version 2.1.6
+* Fix: Resolve issue for different timezone for booking.
+
+2020.05.02 - version 2.1.5
+* Fix: Resolve JS issue when databale not present
+
+2020.04.30 - version 2.1.4
+* Added: Meeting orders list inside product and meeting post type individual edit page.
+
+2020.04.23 - version 2.1.3
+* Added: Compatibility with upcoming recurrings module for normal products only
+
+2020.04.20 - version 2.1.2
+* Changed: add_query_args when join via browser fix
+
+2020.04.12 - version 2.1.1
+* Fix: Issue with timezone not being set properly when "Display your local time from" setting was selected in WooCommerce Bookings
+
+2020.04.10 - version 2.1.0
+* Added Feature: Allow same meeting links for multiple users if they book it for same host and same time ( Group Bookings ).
+* Changed: Join via Browser can be accessed in a meeting without a password now.
+
+2020.04.06 - version 2.0.4
+* Fixed: Encryption method name changed.
+
+2020.04.01 - version 2.0.3
+* Fixed: Hiding meetings tab from wp-admin section resulted in hiding meeting details as well.
+
+2020.03.31 - version 2.0.2
+* Fixed: Wrong time showing in Order details - timezone issue
+* Fixed: Make value uniform for enable_woocommerce meeting meta
+* Fixed: Check disable meeting reminder correctly
+* Fixed: Do not show meetings tab on products that do not have meetings assigned.
+* Added: Ability to log reminder emails for easier debugging
+* Added: Updated Shortcodes and make Shortcodes over writable
+* Added: Browser join link in emails as well as my-accounts section
+* Added: Disable join via browser link in general tab
+* Added: Added hooks for reminder emails
+
+2020.03.27 - version 2.0.1
+* Bug Fix: Show links to only paid booking orders.
+
+2020.03.25 - version 2.0.0
+* Added: Zoom Meetings post type change directly from WooCommerce for flexibility.
+* Added: Variable products will work now with pricing if Zoom Meeting is linked from Product section directly.
+* Fixed: Warning error due to array_push() string on file ProductType.php
+* Fixed: Minor bug fixes
+* Fixed: Add to cart button for Zoom Meetings type.
+* Fixed: Adjust validation for Zoom Meetings only
+* Shortcode: Added to shortcode to see purchasable products = [vczapi_wc_show_purchasable_meetings]
+* Shortcode: Added shortcode to see booked join links list for the user = [vczapi_bookings_customer_list]
+* Fixed: Fix product unlink link when product is not zoom meeting
+* Feature: Added reminder e-mails option – allow notification emails to be sent for meetings
+* Feature: Unlink Zoom Meeting with product when product gets deleted
+* Feature: Multiple host choose at the time of booking
+
+2020.03.20 - version 1.1.7
+* Added: Single product add to cart button is added now for flexibility when meeting is created from Zoom Meeting side
+* Fixed: When multiple bookings were made zoom meetings were not being created for the least ones.
+
+2020.03.16 - version 1.1.6
+* Added: Three hour before meeting emails added.
+
+2020.03.12 - version 1.1.5
+* Fixed: WPML join and start links not showing for different language.
+
+2020.03.11 - version 1.1.4
+* Compatible with WooCommerce 4.0.0
+
+2020.03.04 - version 1.1.3
+* Fixed: WPML booking issue where translated product did not have join links in emails.
+* Added: Setting Option to disable meetings tab if you use WooCommerce Bookings only to remove confusion.
+
+2020.03.02 - version 1.1.2
+* Updated: Chinese translated strings. Thanks to @shiyi
+
+2020.02.28 - version 1.1.1
+* Added: Updated text translation strings.
+* Added: Price display on buy now button.
+
+2020.02.27 - version 1.1.0
+* Added: Integration with WooCommerce and Zoom Meeting Post Type
+* Added: WooCommerce zoom meeting product type
+* Added: Cron email 24 hours before the meeting.
+
+2020.02.21 - version 1.0.2
+* Added Join before host option
+
+2020.02.20 - version 1.0.1
+* Fixed Auto-loading Error PSR-4 Standard on Linux ( FileSystem Folder Naming ) resulting in crashing the site on install and activate.
+
+2020.02.14 - version 1.0.0
+* Initial Release
+* Support for WooCommerce Bookings

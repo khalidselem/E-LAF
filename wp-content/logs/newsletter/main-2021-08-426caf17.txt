@@ -1,0 +1,2 @@
+19-08-2021 17:41:13 - ERROR - 7.2.2 - 73.9 MB/256 MB - [cron] > cURL error 6: Could not resolve host: www.thenewsletterplugin.com (http_request_failed) - 
+26-08-2021 19:34:46 - ERROR - 7.2.2 - 73.9 MB/3 GB - [cron] > cURL error 6: Could not resolve host: www.thenewsletterplugin.com (http_request_failed) - 
